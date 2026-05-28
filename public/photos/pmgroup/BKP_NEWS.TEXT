@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent News</title>
+    <style>
+        /* ======== BASE STYLES ======== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            text-align: center;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* ======== SCROLLING HEADER SECTION ======== */
+        .scrolling-header-container {
+            margin: 0 auto 30px auto; 
+            width: 100%;
+            height: 80px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .scrolling-header {
+            white-space: nowrap;
+            width: 100%;
+            background: linear-gradient(90deg, #0078D4 0%, #005a9e 100%);
+            color: white;
+            font-size: 28px;
+            padding: 25px 0;
+            line-height: 30px;
+            font-weight: bold;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .scrolling-header span {
+            position: absolute;
+            white-space: nowrap;
+            will-change: transform;
+            animation: scrollHeader 15s linear infinite;
+            display: flex;
+            align-items: center;
+        }
+
+        .scrolling-header span:before {
+            content: "📰";
+            margin-right: 15px;
+            font-size: 24px;
+        }
+
+        @keyframes scrollHeader {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+
+        /* ======== SCROLLING NEWS BOX ======== */
+        .news-container {
+            margin: 20px auto 30px;
+            width: 90%;
+            height: 50vh;
+            max-height: 400px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            position: relative;
+            border-left: 5px solid #0078D4;
+        }
+
+        .news-container:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #0078D4 0%, #005a9e 100%);
+            z-index: 2;
+        }
+
+        .news-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            width: 100%;
+            animation: scrollNews 40s linear infinite;
+        }
+
+        .news-list:hover {
+            animation-play-state: paused;
+        }
+
+        .news-list li {
+            padding: 15px 20px;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+            text-align: left;
+            display: flex;
+            align-items: flex-start;
+            transition: all 0.3s ease;
+            background-color: white;
+            height: 120px;
+            box-sizing: border-box;
+        }
+
+        .news-list li:hover {
+            background-color: #f8f9fa;
+            transform: translateX(5px);
+        }
+
+        /* Blinking indicator for new publications */
+        .blinking-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: #ff4757;
+            border-radius: 50%;
+            margin-right: 12px;
+            margin-top: 7px;
+            flex-shrink: 0;
+            animation: blink 1.5s infinite;
+            box-shadow: 0 0 8px rgba(255, 71, 87, 0.7);
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .news-title {
+            font-weight: bold;
+            color: #0078D4;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .news-title:before {
+            content: "📄";
+            margin-right: 8px;
+            font-size: 16px;
+        }
+
+        .news-content {
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .news-doi {
+            color: #666;
+            font-size: 16px;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .news-note {
+            color: #28a745;
+            font-weight: 600;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .news-note:before {
+            content: "🎉";
+            margin-right: 5px;
+        }
+
+        /* Keyframes for smooth continuous scrolling */
+        @keyframes scrollNews {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(calc(-100% + 50vh));
+            }
+        }
+
+        /* ======== COLLAPSIBLE MORE NEWS SECTION ======== */
+        .more-news {
+            margin: 20px auto;
+            width: 90%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            text-align: left;
+            overflow: hidden;
+            border-left: 5px solid #28a745;
+        }
+
+        .more-news:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #28a745 0%, #1e7e34 100%);
+            z-index: 2;
+        }
+
+        /* Collapsible header styling */
+        .collapsible {
+            background: linear-gradient(90deg, #28a745 0%, #1e7e34 100%);
+            color: white;
+            cursor: pointer;
+            padding: 15px 20px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect for the collapsible button */
+        .collapsible:hover {
+            background: linear-gradient(90deg, #34c759 0%, #28a745 100%);
+        }
+
+        /* Style for the plus/minus indicator */
+        .collapsible:after {
+            content: '\002B'; /* Unicode character for "plus" sign (+) */
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Change the plus sign to minus when active */
+        .active:after {
+            content: "\2212"; /* Unicode character for "minus" sign (-) */
+        }
+
+        /* Collapsible content styling */
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .more-news ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .more-news li {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: flex-start;
+            transition: all 0.3s ease;
+        }
+
+        .more-news li:hover {
+            background-color: #f8f9fa;
+        }
+
+        .more-news li:last-child {
+            border-bottom: none;
+        }
+
+        /* Award icon for achievements */
+        .award-icon {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: #ffd700;
+            border-radius: 50%;
+            margin-right: 12px;
+            margin-top: 7px;
+            flex-shrink: 0;
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+        }
+
+        .award-text {
+            color: #ff9800;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .award-text:before {
+            content: "🏆";
+            margin-right: 8px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .scrolling-header {
+                font-size: 22px;
+            }
+            
+            .news-list li {
+                font-size: 16px;
+                padding: 12px 15px;
+                height: 130px;
+            }
+            
+            .collapsible {
+                font-size: 18px;
+                padding: 12px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- SCROLLING HEADER SECTION -->
+        <div class="scrolling-header-container">
+            <div class="scrolling-header">
+                <span>Recent News</span>
+            </div>
+        </div>
+
+        <!-- SCROLLING NEWS SECTION -->
+        <div class="news-container">
+            <ul class="news-list" id="newsList">
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Suvadip Samanta, Soumyadip Ray, Padmabati Mondal published in <strong>Advanced Theory and Simulations</strong></div>
+                        <div class="news-doi">DOI: 10.1002/adts.202501684</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Soumyadip Ray, Sudip Sasmal, Padmabati Mondal published in <strong>Journal of Chemical Physics</strong></div>
+                        <div class="news-doi">DOI: 10.1063/5.0287684</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Padmabati Mondal published in <strong>Nature Chemical Biology</strong></div>
+                        <div class="news-doi">DOI: 10.1038/s41589-025-01961-w</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Arshjot S Dhaliwal, Arunima Verma and Padmabati Mondal published in <strong>RSC Advances</strong></div>
+                        <div class="news-doi">DOI: 10.1039/D5RA03789A</div>
+                        <div class="news-note">Congratulations Arshjot for your publications on your MS thesis work.</div>
+                    </div>
+                </li>
+                <!-- Duplicate items for seamless looping -->
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Suvadip Samanta, Soumyadip Ray, Padmabati Mondal published in <strong>Advanced Theory and Simulations</strong></div>
+                        <div class="news-doi">DOI: 10.1002/adts.202501684</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Soumyadip Ray, Sudip Sasmal, Padmabati Mondal published in <strong>Journal of Chemical Physics</strong></div>
+                        <div class="news-doi">DOI: 10.1063/5.0287684</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Padmabati Mondal published in <strong>Nature Chemical Biology</strong></div>
+                        <div class="news-doi">DOI: 10.1038/s41589-025-01961-w</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">New Publication</div>
+                        <div class="news-content">Arshjot S Dhaliwal, Arunima Verma and Padmabati Mondal published in <strong>RSC Advances</strong></div>
+                        <div class="news-doi">DOI: 10.1039/D5RA03789A</div>
+                        <div class="news-note">Congratulations Arshjot for your publications on your MS thesis work.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="blinking-indicator"></div>
+                    <div>
+                        <div class="news-title">Open Defense</div>
+                        <div class="news-content">Congratulations Dr. Soumyadip Ray for successful open defense on <strong>02/04/2026</strong></div>
+                        <div class="news-doi">Wishing you all the best for your future journey</div>
+                        <div class="news-note">May your journey ahead be filled with continued success and impactful achievements.</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- COLLAPSIBLE MORE NEWS SECTION -->
+        <div class="more-news">
+            <button class="collapsible">More News</button>
+            <div class="collapsible-content">
+                <ul>
+                    <li>
+                        <div class="award-icon"></div>
+                        <div>
+                            <div class="award-text">Atheena Krishna D</div>
+                            <div>Received the Summer Undergraduate Research Exposure (SURE) internship fellowship at IIT Hyderabad.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="award-icon"></div>
+                        <div>
+                            <div class="award-text">Arunima Verma</div>
+                            <div>Received best oral presentation award in 'Statistical Mechanics in Chemistry and Biology 2024 (SMCB2024)' held on 16-19th December, 2024 at IIT Tirupati.</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            Department of Chemistry | Last updated: March 2025
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Collapsible functionality
+            const collapsibles = document.getElementsByClassName("collapsible");
+            for (let i = 0; i < collapsibles.length; i++) {
+                collapsibles[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    const content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+            
+            // JavaScript fallback for seamless scrolling if needed
+            const newsList = document.getElementById('newsList');
+            const newsContainer = document.querySelector('.news-container');
+            
+            // Duplicate items for JavaScript-based seamless scrolling
+            function duplicateItemsForSeamlessScroll() {
+                const items = newsList.querySelectorAll('li');
+                const containerHeight = newsContainer.offsetHeight;
+                let totalHeight = 0;
+                
+                // Calculate total height of original items
+                items.forEach(item => {
+                    totalHeight += item.offsetHeight;
+                });
+                
+                // If the total height is less than container height, duplicate until it fills
+                if (totalHeight < containerHeight) {
+                    const originalItems = Array.from(items);
+                    const clonesNeeded = Math.ceil(containerHeight / totalHeight);
+                    
+                    for (let i = 0; i < clonesNeeded; i++) {
+                        originalItems.forEach(item => {
+                            const clone = item.cloneNode(true);
+                            newsList.appendChild(clone);
+                        });
+                    }
+                }
+            }
+            
+            // Call the function to ensure seamless scrolling
+            duplicateItemsForSeamlessScroll();
+            
+            // Reset animation when it completes for true seamless effect
+            newsList.addEventListener('animationiteration', function() {
+                // This ensures the animation restarts seamlessly
+            });
+        });
+    </script>
+</body>
+</html>
