@@ -46,35 +46,35 @@ export default function Home() {
 
         <div className="flex flex-col gap-7 text-2xl">
 
-          <a href="ESMSCCG/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Home
           </a>
 
-          <a href="ESMSCCG/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Team Leader
           </a>
 
-          <a href="ESMSCCG/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Research
           </a>
 
-          <a href="ESMSCCG/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Publications
           </a>
 
-          <a href="ESMSCCG/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Research Facilities
           </a>
 
-          <a href="ESMSCCG/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Team
           </a>
 
-          <a href="ESMSCCG/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             News & Gallery
           </a>
 
-          <a href="ESMSCCG/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="/ESMSCCG/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Opportunities & Contact
           </a>
 
