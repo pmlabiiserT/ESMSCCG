@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/ESMSCCG-main',
+  basePath: '/ESMSCCG',
   images: {
     unoptimized: true,
   },
