@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
   <div
     className="fixed inset-0 bg-cover bg-center opacity-40 z-0"
     style={{
-      backgroundImage: "url('/photos/home_pic/home_bg_final.png')",
+      backgroundImage: "url('/ESMSCCG/photos/home_pic/home_bg_final.png')",
     }}
   />
 
@@ -46,37 +47,37 @@ export default function Home() {
 
         <div className="flex flex-col gap-7 text-2xl">
 
-          <a href="/ESMSCCG/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Home
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Team Leader
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Research
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Publications
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Research Facilities
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Team
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             News & Gallery
-          </a>
+          </Link>
 
-          <a href="/ESMSCCG/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <Link href="/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Opportunities & Contact
-          </a>
+          </Link>
 
         </div>
 
@@ -86,56 +87,41 @@ export default function Home() {
 
   </div>
 
-  {/* ================================================= */}
-  {/* TOP LOGOS */}
-  {/* ================================================= */}
+{/* ================================================= */}
+      {/* TOP LOGOS */}
+      {/* ================================================= */}
 
-  <div className="relative z-20 max-w-7xl mx-auto flex justify-end items-center gap-6 pt-6 px-8">
-
-    <a href="/" className="flex items-center gap-5 group">
-
-      <Image
-        src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-        alt="Lab Logo"
-        width={60}
-        height={60}
-        className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-      />
-
-      <div>
-
-        <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
-
-          PMLab
-
-        </h1>
-
-        <p className="text-gray-300 tracking-[0.25em] text-sm">
-
-          IISER Tirupati
-
-        </p>
-
+      <div className="relative z-20 max-w-7xl mx-auto flex justify-end items-center gap-6 pt-6 px-8">
+        <Link href="/" className="flex items-center gap-5 group">
+          <Image
+            src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
+            alt="Lab Logo"
+            width={60}
+            height={60}
+            className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
+          />
+          <div>
+            <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
+              PMLab
+            </h1>
+            <p className="text-gray-300 tracking-[0.25em] text-sm">
+              IISER Tirupati
+            </p>
+          </div>
+          <Image
+            src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
+            alt="IISER Logo"
+            width={60}
+            height={60}
+            className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
+          />
+        </Link> {/* <-- FIXED: This was previously </a> */}
       </div>
 
-      <Image
-        src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-        alt="IISER Logo"
-        width={60}
-        height={60}
-        className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-      />
-
-    </a>
-
-  </div>
-
-  {/* ================================================= */}
-  {/* MAIN HERO SECTION */}
-  {/* ================================================= */}
-      {/* Main Hero Section */}
+      {/* ================================================= */}
+      {/* MAIN HERO SECTION */}
+      {/* ================================================= */}
       <section className="relative z-10 flex flex-col items-center justify-center min-h-screen -mt-20 px-6 text-center">
-
         {/* Logo */}
         <div className="mb-8">
           <Image
@@ -149,99 +135,82 @@ export default function Home() {
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-tight max-w-5xl">
-
           Excited State & Multi Scale <br />
-
           <span className="text-cyan-400">
-             Computational Chemistry Group
+            Computational Chemistry Group
           </span>
-
           <br />
-
-          
         </h1>
 
         {/* Subtitle */}
         <p className="mt-8 text-gray-300 text-lg md:text-2xl max-w-3xl leading-relaxed">
-
-          Excited State Quantum Chemistry - Photocemistry & Spectroscopy   Multi-Scale Molecular Modelling & Simulation         
-
+          Excited State Quantum Chemistry - Photochemistry & Spectroscopy   Multi-Scale Molecular Modelling & Simulation
         </p>
 
-       <a
+        {/* Explore Button (Kept as <a> because it is a page jump) */}
+        <a
           href="#explore-section"
           className="mt-20 flex flex-col items-center text-cyan-400 hover:text-white hover:-translate-y-2 transition-all duration-300 animate-pulse"
         >
-
           <span className="text-3xl md:text-3xl tracking-[0.5em] uppercase mb-6 font-bold drop-shadow-[0_0_25px_rgba(34,211,238,1)]">
             Explore
           </span>
-
           <div className="text-7xl md:text-6xl animate-bounce drop-shadow-[0_0_20px_rgba(34,211,238,0.8)]">
             ↓
           </div>
-
         </a>
-                
       </section>
-        {/* Navigation Scroll Section */}
 
-          <section
-            id="explore-section"
-            className="relative z-10 min-h-screen flex items-center justify-center px-6"
+      {/* Navigation Scroll Section */}
+      <section
+        id="explore-section"
+        className="relative z-10 min-h-screen flex items-center justify-center px-6"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full">
+          
+          {/* About PI */}
+          <Link
+            href="/about"
+            className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
           >
+            <h2 className="text-3xl font-bold text-cyan-400 mb-4">
+              Team Leader
+            </h2>
+            <p className="text-gray-300 text-xl">
+              Dr. Padmabati Mondal
+            </p>
+          </Link>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full">
+          {/* Research */}
+          <Link
+            href="/research"
+            className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
+          >
+            <h2 className="text-3xl font-bold text-cyan-400 mb-4 drop-shadow-[0_0_15px_rgba(34,211,238,0.6)]">
+              Research
+            </h2>
+            <p className="text-gray-300 text-xl leading-relaxed">
+              Excited-state chemistry, spectroscopy,
+              molecular simulations, and multiscale modelling.
+            </p>
+          </Link>
 
-              {/* About PI */}
-              <a
-              href="ESMSCCG/about"
-              className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
-            >
-
-              <h2 className="text-3xl font-bold text-cyan-400 mb-4">
-                Team Leader
-              </h2>
-
-              <p className="text-gray-300 text-xl">
-                Dr. Padmabati Mondal
-              </p>
-
-            </a>
-
-             {/* Research */}
-              <a
-                href="ESMSCCG/research"
-                className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
-              >
-
-                <h2 className="text-3xl font-bold text-cyan-400 mb-4 drop-shadow-[0_0_15px_rgba(34,211,238,0.6)]">
-                  Research
-                </h2>
-
-                <p className="text-gray-300 text-xl leading-relaxed">
-                  Excited-state chemistry, spectroscopy,
-                  molecular simulations, and multiscale modelling.
-                </p>
-
-              </a>
-
-             {/* Publications */}
-            <a
-              href="ESMSCCG/publications"
-              className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
-            >
-
-              <h2 className="text-3xl font-bold text-cyan-400 mb-4 drop-shadow-[0_0_15px_rgba(34,211,238,0.6)]">
-                Publications
-              </h2>
-
-              <p className="text-gray-300 text-xl leading-relaxed">
-                Explore our scientific publications,
-                computational studies, and discoveries.
-              </p>
-
-            </a>
+          {/* Publications */}
+          <Link
+            href="/publications"
+            className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
+          >
+            <h2 className="text-3xl font-bold text-cyan-400 mb-4 drop-shadow-[0_0_15px_rgba(34,211,238,0.6)]">
+              Publications
+            </h2>
+            <p className="text-gray-300 text-xl leading-relaxed">
+              Explore our scientific publications,
+              computational studies, and discoveries.
+            </p>
+          </Link>
+          
+        </div>
+      </section>
 
 
 
