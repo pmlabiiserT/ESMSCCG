@@ -148,61 +148,6 @@ export default function FacilitiesPage() {
     {/* Overlay */}
     <div className="absolute inset-0 bg-black/40" />
 
-    {/* ================================================= */}
-    {/* HOVER MENU (Moved here as a direct child of main) */}
-    {/* ================================================= */}
-    <div className="fixed top-10 left-10 z-[99999] group">
-      {/* MENU ICON */}
-      <div className="w-16 h-16 rounded-2xl backdrop-blur-xl bg-black/75 border border-cyan-400/30 flex flex-col justify-center items-center gap-2 cursor-pointer shadow-[0_0_35px_rgba(34,211,238,0.25)] hover:scale-110 transition-all duration-300">
-        <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
-        <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
-        <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
-      </div>
-
-      {/* EXPANDING MENU */}
-      <div className="absolute top-0 left-0 w-0 opacity-0 overflow-hidden group-hover:w-[420px] group-hover:opacity-100 transition-all duration-500">
-        <div className="ml-24 min-w-[300px] backdrop-blur-2xl bg-black/92 border border-cyan-400/30 rounded-[35px] p-10 shadow-[0_0_80px_rgba(34,211,238,0.4)]">
-          <div className="flex flex-col gap-7 text-2xl">
-            <a href="/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Home</a>
-            <a href="/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Team Leader</a>
-            <a href="/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Research</a>
-            <a href="/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Publications</a>
-            <a href="/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Research Facilities</a>
-            <a href="/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Team</a>
-            <a href="/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">News & Gallery</a>
-            <a href="/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Opportunities & Contact</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {/* ================================================= */}
-    {/* TOP LOGOS (Menu was removed from here)            */}
-    {/* ================================================= */}
-    <div className="relative z-10 max-w-7xl mx-auto flex justify-end items-center gap-6 mb-8"> 
-      {/* Changed justify-between to justify-end since menu is gone from here */}
-      <a href="/" className="flex items-center gap-5 group">
-        <Image
-          src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-          alt="Lab Logo"
-          width={60}
-          height={60}
-          className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-        />
-        <div>
-          <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">PMLab</h1>
-          <p className="text-gray-300 tracking-[0.25em] text-sm">IISER Tirupati</p>
-        </div>
-        <Image
-          src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-          alt="IISER Logo"
-          width={60}
-          height={60}
-          className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-        />
-      </a>
-    </div>
-
 
       {/* ================================================= */}
       {/* HERO SECTION */}
