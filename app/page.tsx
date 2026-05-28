@@ -46,35 +46,35 @@ export default function Home() {
 
         <div className="flex flex-col gap-7 text-2xl">
 
-          <a href="/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Home
           </a>
 
-          <a href="/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Team Leader
           </a>
 
-          <a href="/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Research
           </a>
 
-          <a href="/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Publications
           </a>
 
-          <a href="/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Research Facilities
           </a>
 
-          <a href="/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Team
           </a>
 
-          <a href="/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             News & Gallery
           </a>
 
-          <a href="/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
+          <a href="ESMSCCG/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">
             Opportunities & Contact
           </a>
 
@@ -195,7 +195,7 @@ export default function Home() {
 
               {/* About PI */}
               <a
-              href="/about"
+              href="ESMSCCG/about"
               className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
             >
 
@@ -211,7 +211,7 @@ export default function Home() {
 
              {/* Research */}
               <a
-                href="/research"
+                href="ESMSCCG/research"
                 className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
               >
 
@@ -228,7 +228,7 @@ export default function Home() {
 
              {/* Publications */}
             <a
-              href="/publications"
+              href="ESMSCCG/publications"
               className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
             >
 
@@ -249,7 +249,7 @@ export default function Home() {
 
               {/* Research Facilities */}
                 <a
-                  href="/facilities"
+                  href="ESMSCCG/facilities"
                   className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-3xl p-7 hover:scale-[1.08] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_45px_rgba(34,211,238,0.45)] transition-all duration-500 cursor-pointer text-left block"
                 >
 
