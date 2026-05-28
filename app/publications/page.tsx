@@ -113,7 +113,7 @@ export default function PublicationsPage() {
     {/* Lab Logo */}
 
     <Image
-      src="/photos/home_pic/logo_round_wo_B.png"
+      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
       alt="Lab Logo"
       width={52}
       height={52}
@@ -141,7 +141,7 @@ export default function PublicationsPage() {
     {/* IISER Logo */}
 
     <Image
-      src="/photos/home_pic/iisert_logo.jpg"
+      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
       alt="IISER Logo"
       width={52}
       height={52}

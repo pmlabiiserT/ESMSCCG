@@ -95,7 +95,7 @@ export default function Home() {
     <a href="/" className="flex items-center gap-5 group">
 
       <Image
-        src="/photos/home_pic/logo_round_wo_B.png"
+        src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
         alt="Lab Logo"
         width={60}
         height={60}
@@ -119,7 +119,7 @@ export default function Home() {
       </div>
 
       <Image
-        src="/photos/home_pic/iisert_logo.jpg"
+        src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
         alt="IISER Logo"
         width={60}
         height={60}
@@ -139,7 +139,7 @@ export default function Home() {
         {/* Logo */}
         <div className="mb-8">
           <Image
-            src="/photos/home_pic/logo_round_wo_B.png"
+            src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
             alt="Lab Logo"
             width={160}
             height={160}

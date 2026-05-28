@@ -114,7 +114,7 @@ export default function TeamPage() {
   <a href="/" className="flex items-center gap-5 group">
 
     <Image
-      src="/photos/home_pic/logo_round_wo_B.png"
+      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
       alt="Lab Logo"
       width={58}
       height={58}
@@ -138,7 +138,7 @@ export default function TeamPage() {
     </div>
 
     <Image
-      src="/photos/home_pic/iisert_logo.jpg"
+      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
       alt="IISER Logo"
       width={58}
       height={58}
@@ -193,7 +193,7 @@ export default function TeamPage() {
             <a  href="/facilities" className="flex items-center gap-6">
 
               <Image
-                src="/photos/team/feluda_logo_final.png"
+                src="/ESMSCCG/photos/team/feluda_logo_final.png"
                 alt="Feluda HPC"
                 width={150}
                 height={150}
@@ -250,7 +250,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_soumyadip.jpg"
+                src="/ESMSCCG/photos/team/f_soumyadip.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -271,7 +271,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_arunima.jpg"
+                src="/ESMSCCG/photos/team/f_arunima.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -292,7 +292,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_subhadip.jpeg"
+                src="/ESMSCCG/photos/team/f_subhadip.jpeg"
                 alt="member"
                 width={90}
                 height={90}
@@ -313,7 +313,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_momus.jpg"
+                src="/ESMSCCG/photos/team/f_momus.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -334,7 +334,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_sourav_3.jpg"
+                src="/ESMSCCG/photos/team/f_sourav_3.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -355,7 +355,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_sulekha_1.jpeg"
+                src="/ESMSCCG/photos/team/f_sulekha_1.jpeg"
                 alt="member"
                 width={90}
                 height={90}
@@ -374,7 +374,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/tba.png"
+                src="/ESMSCCG/photos/team/tba.png"
                 alt="member"
                 width={90}
                 height={90}
@@ -393,7 +393,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/f_ina.jpg"
+                src="/ESMSCCG/photos/team/f_ina.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -414,7 +414,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/photos/team/tba.png"
+                src="/ESMSCCG/photos/team/tba.png"
                 alt="member"
                 width={90}
                 height={90}
@@ -434,7 +434,7 @@ export default function TeamPage() {
               <a  href="/about" className="flex flex-col items-center">
 
                 <Image
-                  src="/photos/team/f_madam.png"
+                  src="/ESMSCCG/photos/team/f_madam.png"
                   alt="Coach"
                   width={70}
                   height={70}
@@ -450,7 +450,7 @@ export default function TeamPage() {
               <div className="flex flex-col items-center">
 
                 <Image
-                  src="/photos/team/f_bujul.jpeg"
+                  src="/ESMSCCG/photos/team/f_bujul.jpeg"
                   alt="Assistant Coach"
                   width={70}
                   height={70}
@@ -495,7 +495,7 @@ export default function TeamPage() {
     <div className="flex justify-center">
 
       <Image
-        src="/photos/team/soumyadip_1.jpeg"
+        src="/ESMSCCG/photos/team/soumyadip_1.jpeg"
         alt="member"
         width={420}
         height={420}
@@ -615,7 +615,7 @@ export default function TeamPage() {
     <div className="flex justify-center order-1 lg:order-2">
 
       <Image
-        src="/photos/team/arunima_1.jpg"
+        src="/ESMSCCG/photos/team/arunima_1.jpg"
         alt="member"
         width={420}
         height={420}
@@ -636,7 +636,7 @@ export default function TeamPage() {
     <div className="flex justify-center">
 
       <Image
-        src="/photos/team/subhadip_4.jpeg"
+        src="/ESMSCCG/photos/team/subhadip_4.jpeg"
         alt="member"
         width={420}
         height={420}
@@ -759,7 +759,7 @@ export default function TeamPage() {
     <div className="flex justify-center order-1 lg:order-2">
 
       <Image
-        src="/photos/team/momus.jpg"
+        src="/ESMSCCG/photos/team/momus.jpg"
         alt="member"
         width={420}
         height={420}
@@ -786,7 +786,7 @@ export default function TeamPage() {
     <div className="flex justify-center">
 
       <Image
-        src="/photos/team/sourav.jpg"
+        src="/ESMSCCG/photos/team/sourav.jpg"
         alt="member"
         width={420}
         height={420}
@@ -913,7 +913,7 @@ export default function TeamPage() {
     <div className="flex justify-center order-1 lg:order-2">
 
       <Image
-        src="/photos/team/sulekha_1.jpeg"
+        src="/ESMSCCG/photos/team/sulekha_1.jpeg"
         alt="member"
         width={420}
         height={420}
@@ -934,7 +934,7 @@ export default function TeamPage() {
     <div className="flex justify-center">
 
       <Image
-        src="/photos/team/tba.png"
+        src="/ESMSCCG/photos/team/tba.png"
         alt="member"
         width={420}
         height={420}
@@ -1057,7 +1057,7 @@ export default function TeamPage() {
     <div className="flex justify-center order-1 lg:order-2">
 
       <Image
-        src="/photos/team/ina.jpg"
+        src="/ESMSCCG/photos/team/ina.jpg"
         alt="member"
         width={420}
         height={420}
@@ -1084,7 +1084,7 @@ export default function TeamPage() {
     <div className="flex justify-center">
 
       <Image
-        src="/photos/team/tba.png"
+        src="/ESMSCCG/photos/team/tba.png"
         alt="member"
         width={420}
         height={420}
@@ -1172,7 +1172,7 @@ export default function TeamPage() {
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
 
       <Image
-        src="/photos/team/alumni/f_hitesh.jpg"
+        src="/ESMSCCG/photos/team/alumni/f_hitesh.jpg"
         alt="alumni"
         width={240}
         height={240}
@@ -1197,7 +1197,7 @@ export default function TeamPage() {
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
 
       <Image
-        src="/photos/team/alumni/f_atheena.jpg"
+        src="/ESMSCCG/photos/team/alumni/f_atheena.jpg"
         alt="alumni"
         width={240}
         height={240}
@@ -1222,7 +1222,7 @@ export default function TeamPage() {
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
 
       <Image
-        src="/photos/team/alumni/f_prasad.jpg"
+        src="/ESMSCCG/photos/team/alumni/f_prasad.jpg"
         alt="alumni"
         width={240}
         height={240}
@@ -1247,7 +1247,7 @@ export default function TeamPage() {
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
 
       <Image
-        src="/photos/team/alumni/f_arshjot.jpg"
+        src="/ESMSCCG/photos/team/alumni/f_arshjot.jpg"
         alt="alumni"
         width={240}
         height={240}
@@ -1270,7 +1270,7 @@ export default function TeamPage() {
 
     {/* Alumni 5 */}
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-      <Image src="/photos/team/alumni/f_prachi.jpg" alt="alumni" width={240} height={240}
+      <Image src="/ESMSCCG/photos/team/alumni/f_prachi.jpg" alt="alumni" width={240} height={240}
       className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
       <h3 className="text-2xl font-bold text-white mb-2">Prachi Gupta</h3>
       <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
@@ -1279,7 +1279,7 @@ export default function TeamPage() {
 
     {/* Alumni 6 */}
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-      <Image src="/photos/team/alumni/f_nihad.jpeg" alt="alumni" width={240} height={240}
+      <Image src="/ESMSCCG/photos/team/alumni/f_nihad.jpeg" alt="alumni" width={240} height={240}
       className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
       <h3 className="text-2xl font-bold text-white mb-2">Nehad Ahmed</h3>
       <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
@@ -1288,7 +1288,7 @@ export default function TeamPage() {
 
     {/* Alumni 7 */}
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-      <Image src="/photos/team/alumni/tba.png" alt="alumni" width={240} height={240}
+      <Image src="/ESMSCCG/photos/team/alumni/tba.png" alt="alumni" width={240} height={240}
       className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
       <h3 className="text-2xl font-bold text-white mb-2">Vanisha Mishra</h3>
       <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
@@ -1297,7 +1297,7 @@ export default function TeamPage() {
 
     {/* Alumni 8 */}
     <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-      <Image src="/photos/team/alumni/f_vyshna_1.jpeg" alt="alumni" width={240} height={240}
+      <Image src="/ESMSCCG/photos/team/alumni/f_vyshna_1.jpeg" alt="alumni" width={240} height={240}
       className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
       <h3 className="text-2xl font-bold text-white mb-2">Vyshna Rathees</h3>
       <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
@@ -1306,7 +1306,7 @@ export default function TeamPage() {
 
 {/* Alumni 9 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/f_abhishek_kumar.png" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/f_abhishek_kumar.png" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Abhishek Kumar</h3>
   <p className="text-cyan-300 text-lg mb-1">Project Associate</p>
@@ -1315,7 +1315,7 @@ export default function TeamPage() {
 
 {/* Alumni 10 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/f_kruthika.png" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/f_kruthika.png" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Kruthika Avadhani</h3>
   <p className="text-cyan-300 text-lg mb-1">MS Thesis</p>
@@ -1324,7 +1324,7 @@ export default function TeamPage() {
 
 {/* Alumni 11 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/f_prantik_1.jpeg" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/f_prantik_1.jpeg" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Prantic Debnath</h3>
   <p className="text-cyan-300 text-lg mb-1">Summer Project <span className="block">(IIT Tirupati)</span></p>
@@ -1333,7 +1333,7 @@ export default function TeamPage() {
 
 {/* Alumni 12 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/f_ranjhita.jpg" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/f_ranjhita.jpg" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Ranjitha R</h3>
   <p className="text-cyan-300 text-lg mb-1">MS Thesis</p>
@@ -1342,7 +1342,7 @@ export default function TeamPage() {
 
 {/* Alumni 13 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/f_camelia.jpg" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/f_camelia.jpg" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Camelia Dutta</h3>
   <p className="text-cyan-300 text-lg mb-1">Semester project</p>
@@ -1351,7 +1351,7 @@ export default function TeamPage() {
 
 {/* Alumni 14 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/f_prajwal.jpg" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/f_prajwal.jpg" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Prajwal Dattatray Pisal</h3>
   <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
@@ -1360,7 +1360,7 @@ export default function TeamPage() {
 
 {/* Alumni 15 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/tba.png" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/tba.png" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2">Aparna K</h3>
   <p className="text-cyan-300 text-lg mb-1">Summer Project</p>
@@ -1369,7 +1369,7 @@ export default function TeamPage() {
 
 {/* Alumni 16 */}
 <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-  <Image src="/photos/team/alumni/tba.png" alt="alumni" width={240} height={240}
+  <Image src="/ESMSCCG/photos/team/alumni/tba.png" alt="alumni" width={240} height={240}
   className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"/>
   <h3 className="text-2xl font-bold text-white mb-2"> Preet Bhanjan Pati</h3>
   <p className="text-cyan-300 text-lg mb-1">Summer Project</p>

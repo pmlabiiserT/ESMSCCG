@@ -183,7 +183,7 @@ export default function FacilitiesPage() {
       {/* Changed justify-between to justify-end since menu is gone from here */}
       <a href="/" className="flex items-center gap-5 group">
         <Image
-          src="/photos/home_pic/logo_round_wo_B.png"
+          src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
           alt="Lab Logo"
           width={60}
           height={60}
@@ -194,7 +194,7 @@ export default function FacilitiesPage() {
           <p className="text-gray-300 tracking-[0.25em] text-sm">IISER Tirupati</p>
         </div>
         <Image
-          src="/photos/home_pic/iisert_logo.jpg"
+          src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
           alt="IISER Logo"
           width={60}
           height={60}
@@ -263,7 +263,7 @@ export default function FacilitiesPage() {
           <div className="overflow-hidden rounded-[35px] border border-cyan-400/20 shadow-[0_0_50px_rgba(34,211,238,0.25)]">
 
             <Image
-              src="/photos/facilities/aryabhatta.png"
+              src="/ESMSCCG/photos/facilities/aryabhatta.png"
               alt="Aryabhatta HPC"
               width={1200}
               height={900}

@@ -81,7 +81,7 @@ export default function AboutPage() {
     {/* Lab Logo */}
 
     <Image
-      src="/photos/home_pic/logo_round_wo_B.png"
+      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
       alt="Lab Logo"
       width={52}
       height={52}
@@ -109,7 +109,7 @@ export default function AboutPage() {
     {/* IISER Logo */}
 
     <Image
-      src="/photos/home_pic/iisert_logo.jpg"
+      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
       alt="IISER Logo"
       width={52}
       height={52}
@@ -141,7 +141,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-cyan-400/35 blur-[90px] rounded-full"></div>
 
               <Image
-                src="/photos/about_pi_pic/blurry.jpg"
+                src="/ESMSCCG/photos/about_pi_pic/blurry.jpg"
                 alt="Dr. Padmabati Mondal"
                 width={420}
                 height={420}
