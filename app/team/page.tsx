@@ -381,7 +381,7 @@ export default function TeamPage() {
                 <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                   Member Since:
                 </span>{" "}
-                January 2020
+                January 2020 (Completed)
               </p>
 
               <p>
@@ -530,7 +530,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Reaction Mechanism ; Photochemistry ; QM-MM MD Simulation
+              Reaction Mechanism ; Photochemistry ; QM-MM MD Simulation ; Force Field Development
             </p>
 
             <p>
@@ -754,7 +754,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Music enthusiast, Watching reels, Sleeping
+              Art, Music enthusiast, Watching reels, Sleeping
             </p>
 
             <p>
@@ -824,7 +824,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Singing, Dancing, Badminton
+              Singing, Dancing, Badminton, Overthinking
             </p>
 
 
@@ -981,7 +981,7 @@ export default function TeamPage() {
             </p>
 
             <p className="text-gray-400">
-              2020 — 2024
+              Aug,2025 — Jul,2026
             </p>
 
           </div>
@@ -1006,7 +1006,7 @@ export default function TeamPage() {
             </p>
 
             <p className="text-gray-400">
-              2021 — 2022
+              Jan,2025 — Jul,2026
             </p>
 
           </div>
@@ -1031,7 +1031,7 @@ export default function TeamPage() {
             </p>
 
             <p className="text-gray-400">
-              2019 — 2020
+              Sep,2024 — Jun,2025
             </p>
 
           </div>
@@ -1056,7 +1056,7 @@ export default function TeamPage() {
             </p>
 
             <p className="text-gray-400">
-              2022 — 2023
+              Aug,2024 — Jul,2025
             </p>
 
           </div>
@@ -1071,7 +1071,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Prachi Gupta</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
-            <p className="text-gray-400">2020 — 2021</p>
+            <p className="text-gray-400">Jan,2025 — Jul,2025</p>
           </div>
 
           {/* Alumni 6 */}
@@ -1085,7 +1085,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Nehad Ahmed</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
-            <p className="text-gray-400">2018 — 2022</p>
+            <p className="text-gray-400">Jan,2025 — Jul,2025</p>
           </div>
 
           {/* Alumni 7 */}
@@ -1099,7 +1099,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Vanisha Mishra</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
-            <p className="text-gray-400">2019 — 2021</p>
+            <p className="text-gray-400">Aug,2024 — Dec,2024</p>
           </div>
 
           {/* Alumni 8 */}
@@ -1113,7 +1113,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Vyshna Ratheesh</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
-            <p className="text-gray-400">2021 — 2022</p>
+            <p className="text-gray-400">Aug,2023 — Jul,2024</p>
           </div>
 
           {/* Alumni 9 */}
@@ -1127,7 +1127,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Abhishek Kumar</h3>
             <p className="text-cyan-300 text-lg mb-1">Project Associate</p>
-            <p className="text-gray-400">2020 — 2021</p>
+            <p className="text-gray-400">Aug,2023 — Jul,2024</p>
           </div>
 
           {/* Alumni 10 */}
@@ -1141,7 +1141,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Kruthika Avadhani</h3>
             <p className="text-cyan-300 text-lg mb-1">MS Thesis</p>
-            <p className="text-gray-400">2019 — 2020</p>
+            <p className="text-gray-400">Aug,2022 — Jul,2023</p>
           </div>
 
 {/* Alumni 11 */}
@@ -1155,7 +1155,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Prantic Debnath</h3>
             <p className="text-cyan-300 text-lg mb-1">Summer Project <span className="block">(IIT Tirupati)</span></p>
-            <p className="text-gray-400">2022 — 2023</p>
+            <p className="text-gray-400">May,2022 — Jun,2022</p>
           </div>
 
           {/* Alumni 12 */}
@@ -1169,7 +1169,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Ranjitha R</h3>
             <p className="text-cyan-300 text-lg mb-1">MS Thesis</p>
-            <p className="text-gray-400">2021 — 2022</p>
+            <p className="text-gray-400">XXXX — XXXX</p>
           </div>
 
           {/* Alumni 13 */}
@@ -1183,7 +1183,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Camelia Dutta</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester project</p>
-            <p className="text-gray-400">2018 — 2019</p>
+            <p className="text-gray-400">XXXX — XXXX</p>
           </div>
 
           {/* Alumni 14 */}
@@ -1197,7 +1197,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Prajwal Dattatray Pisal</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
-            <p className="text-gray-400">2020 — 2021</p>
+            <p className="text-gray-400">XXXX — XXXX</p>
           </div>
 
           {/* Alumni 15 */}
@@ -1211,7 +1211,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2">Aparna K</h3>
             <p className="text-cyan-300 text-lg mb-1">Summer Project</p>
-            <p className="text-gray-400">2019 — 2021</p>
+            <p className="text-gray-400">XXXX — XXXX</p>
           </div>
 
           {/* Alumni 16 */}
@@ -1225,7 +1225,7 @@ export default function TeamPage() {
             />
             <h3 className="text-2xl font-bold text-white mb-2"> Preet Bhanjan Pati</h3>
             <p className="text-cyan-300 text-lg mb-1">Summer Project</p>
-            <p className="text-gray-400">2017 — 2021</p>
+            <p className="text-gray-400">XXXX — XXXX</p>
           </div>
 
         </div>
