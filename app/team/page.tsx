@@ -177,8 +177,7 @@ export default function TeamPage() {
             >
 
               <Image
-                // FIXED: Changed to capital .JPG
-                src="/ESMSCCG/photos/team/f_momus.JPG" 
+                src="/ESMSCCG/photos/team/f_momus.jpg" 
                 alt="member"
                 width={90}
                 height={90}
@@ -199,8 +198,7 @@ export default function TeamPage() {
             >
 
               <Image
-                // FIXED: Changed to capital .JPG
-                src="/ESMSCCG/photos/team/f_sourav_3.JPG" 
+                src="/ESMSCCG/photos/team/f_sourav_3.jpg" 
                 alt="member"
                 width={90}
                 height={90}

@@ -9,6 +9,18 @@ const [selectedImage, setSelectedImage] = useState<string | null>(null);
 const [allImages, setAllImages] = useState<string[]>([]);
   const newsItems = [
 
+          {
+            title: "🎓 MS Thesis Defense",
+
+            content:
+              "MS Thesis Defense of Atheena Krishna D on 08/05/2026",
+
+            doi: "",
+
+            note:
+              "Congratulations Atheena and wishing you success for your future journey.",
+          },
+
 
 
 
