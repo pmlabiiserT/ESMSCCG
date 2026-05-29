@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PMLab | IISER Tirupati",
+  title: "Excited State & Multi Scale Computational Chemistry Group",
   description: "Excited State & Multi Scale Computational Chemistry Group",
 };
 

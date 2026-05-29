@@ -16,7 +16,26 @@ export default function PublicationsPage() {
 
   {/* Dark Overlay */}
 
+{/* ================================================= */}
+{/* TOP HEADER */}
+{/* ================================================= */}
 
+<div className="relative z-20 max-w-7xl mx-auto px-16 py-6 flex justify-between items-center mb-20">
+
+  {/* Title */}
+
+  <div>
+
+    <h1 className="relative z-20 text-5xl md:text-7xl font-bold leading-tight text-white drop-shadow-[0_0_25px_rgba(255,255,255,0.18)]">
+
+      Publications
+
+    </h1>
+
+  </div>
+
+
+    </div>
 
 
 

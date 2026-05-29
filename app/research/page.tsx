@@ -19,50 +19,6 @@ export default function ResearchPage() {
 
   </div>
 
-  {/* Logos */}
-
-  <a href="/" className="flex items-center gap-5 group">
-
-    {/* Lab Logo */}
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-      alt="Lab Logo"
-      width={52}
-      height={52}
-      className="drop-shadow-[0_0_15px_rgba(34,211,238,0.9)]"
-    />
-
-    {/* Lab Name */}
-
-    <div className="text-center">
-
-      <h1 className="text-cyan-400 font-bold text-2xl leading-none group-hover:text-white transition">
-
-        PMLab
-
-      </h1>
-
-      <p className="text-sm text-gray-400 tracking-[0.25em] mt-1">
-
-        IISER Tirupati
-
-      </p>
-
-    </div>
-
-    {/* IISER Logo */}
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-      alt="IISER Logo"
-      width={52}
-      height={52}
-      className="drop-shadow-[0_0_15px_rgba(34,211,238,0.9)]"
-    />
-
-  </a>
-
 </div>
 
 
