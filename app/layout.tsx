@@ -56,34 +56,38 @@ export default function RootLayout({
           </div>
         </div>
 
-        {/* ================================================= */}
+{/* ================================================= */}
         {/* GLOBAL TOP LOGOS (Now applies to every page!) */}
         {/* ================================================= */}
-        <div className="relative w-full z-20 max-w-7xl mx-auto flex justify-end items-center gap-6 pt-6 px-8">
-          <a href="/ESMSCCG/" className="flex items-center gap-5 group">
-            <Image
-              src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-              alt="Lab Logo"
-              width={60}
-              height={60}
-              className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-            />
-            <div>
-              <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
-                PMLab
-              </h1>
-              <p className="text-gray-300 tracking-[0.25em] text-sm">
-                IISER Tirupati
-              </p>
-            </div>
-            <Image
-              src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-              alt="IISER Logo"
-              width={60}
-              height={60}
-              className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-            />
-          </a>
+        
+        {/* FIXED: Wrapped in an absolute positioning container to float over the background */}
+        <div className="absolute top-0 left-0 w-full z-[50]">
+          <div className="max-w-7xl mx-auto flex justify-end items-center gap-6 pt-6 px-8">
+            <a href="/ESMSCCG/" className="flex items-center gap-5 group">
+              <Image
+                src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
+                alt="Lab Logo"
+                width={60}
+                height={60}
+                className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
+              />
+              <div>
+                <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
+                  PMLab
+                </h1>
+                <p className="text-gray-300 tracking-[0.25em] text-sm">
+                  IISER Tirupati
+                </p>
+              </div>
+              <Image
+                src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
+                alt="IISER Logo"
+                width={60}
+                height={60}
+                className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
+              />
+            </a>
+          </div>
         </div>
 
         {/* This renders whatever specific page you are on */}

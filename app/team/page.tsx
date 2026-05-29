@@ -360,7 +360,7 @@ export default function TeamPage() {
           <div className="flex justify-center">
 
             <Image
-              src="/ESMSCCG/photos/team/soumyadip_1.jpeg"
+              src="/ESMSCCG/photos/team/soumyadip.jpg"
               alt="member"
               width={420}
               height={420}
@@ -381,21 +381,21 @@ export default function TeamPage() {
                 <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                   Member Since:
                 </span>{" "}
-                August 2022
+                January 2020
               </p>
 
               <p>
                 <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                   Research Topic:
                 </span>{" "}
-                Excited-state molecular dynamics simulations
+                Excited State Quantum Dynamics ; Photophysics and Photochemistry ; Weak Interaction
               </p>
 
               <p>
                 <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                   About me:
                 </span>{" "}
-                Hobby, Sports, Crafting, Reader
+                Cooking, Hip-Hop, Writing, Basketball, Table Tennis
               </p>
 
 
@@ -441,21 +441,21 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              January 2023
+              January 2021
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Research Topic:
+                Research Topic: 
               </span>{" "}
-              Spectroscopy and quantum dynamics
+              Biomolecular Simulation of Protein and DNA ; MD Simulation and Enhanced Sampling
             </p>
 
            <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Football, Movies, Scientific visualization
+              Drawing & Sketching, Basketball, Reading novels, Writing
             </p>
 
 
@@ -523,21 +523,21 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              August 2021
+              August 2023
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Computational photochemistry
+              Reaction Mechanism ; Photochemistry ; QM-MM MD Simulation
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Music, Coding, Long walks
+              Chess, Reading, Long walks
             </p>
 
 
@@ -590,14 +590,14 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              GPCR molecular simulations
+              Computational Spectroscopy ; Photophysics and Photochemistry
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Anime, Cricket, Molecular graphics
+              Cricket, Listening song, Newspaper Reader 
             </p>
 
 
@@ -687,7 +687,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Gaming, Fitness, Simulations
+               Numismatist, Philatelist, Gypsy traveller. Food-Football-Photography.
             </p>
 
 
@@ -740,21 +740,21 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              May 2026
+              August 2026
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Biomolecular modelling
+              Photochemistry
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Drawing, Reading, AI Art
+              Music enthusiast, Watching reels, Sleeping
             </p>
 
             <p>
@@ -790,78 +790,8 @@ export default function TeamPage() {
 
       </div>
 
+
       {/* MS 2 */}
-
-      <div
-        id="ms2"
-        className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-40"
-      >
-
-        <div className="flex justify-center">
-
-          <Image
-            src="/ESMSCCG/photos/team/tba.png"
-            alt="member"
-            width={420}
-            height={420}
-            className="rounded-[35px] border border-cyan-400/20 shadow-[0_0_45px_rgba(34,211,238,0.25)] object-cover"
-          />
-
-        </div>
-
-        <div>
-
-          <h3 className="text-5xl font-bold mb-8">
-            Gourav 
-          </h3>
-
-          <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Member Since:
-              </span>{" "}
-              March 2025
-            </p>
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Research Topic:
-              </span>{" "}
-              QM/MM simulations
-            </p>
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                About me:
-              </span>{" "}
-              Football, Coding, Music
-            </p>
-
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Contact:
-              </span>{" "}
-
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=soumyadipay@students.iisertirupati.ac.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-300 hover:text-white hover:underline transition duration-300">
-                name@iisertirupati.ac.in
-              </a>
-
-            </p>
-
-
-          </div>
-
-        </div>
-
-      </div>
-
-      {/* MS 3 */}
 
       <div
         id="ms3"
@@ -880,21 +810,21 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              May 2025
+              August 2025
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Excited-state spectroscopy
+              Reaction Mechanism ; Biomolecular simulation ; QMMM-MD Simulation
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Chess, Cycling, Movies
+              Singing, Dancing, Badminton
             </p>
 
 
@@ -1161,7 +1091,7 @@ export default function TeamPage() {
           {/* Alumni 7 */}
           <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
             <Image 
-              src="/ESMSCCG/photos/team/alumni/tba.png" 
+              src="/ESMSCCG/photos/team/alumni/f_vanisha.jpeg" 
               alt="alumni" 
               width={240} 
               height={240}
@@ -1181,7 +1111,7 @@ export default function TeamPage() {
               height={240}
               className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"
             />
-            <h3 className="text-2xl font-bold text-white mb-2">Vyshna Rathees</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Vyshna Ratheesh</h3>
             <p className="text-cyan-300 text-lg mb-1">Semester Project</p>
             <p className="text-gray-400">2021 — 2022</p>
           </div>
