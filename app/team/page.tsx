@@ -233,25 +233,6 @@ export default function TeamPage() {
             </a>
 
             <a
-              href="#ms2"
-              className="absolute bottom-[20%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
-            >
-
-              <Image
-                src="/ESMSCCG/photos/team/tba.png"
-                alt="member"
-                width={90}
-                height={90}
-                className="rounded-full border-4 border-cyan-400 shadow-[0_0_30px_rgba(34,211,238,0.9)] group-hover:scale-110 transition duration-300 animate-pulse object-cover"
-              />
-
-              <p className="text-cyan-300 font-bold mt-1">MS Thesis</p>
-
-              <p className="text-white text-xs leading-none mt-1">Gourav</p>
-
-            </a>
-
-            <a
               href="#ms3"
               className="absolute bottom-[20%] right-[15%] flex flex-col items-center group"
             >
