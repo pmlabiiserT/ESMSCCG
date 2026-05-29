@@ -6,65 +6,6 @@ export default function AboutPage() {
     <main className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white px-6 pt-8 pb-24">
      
 
-
-{/* ================================================= */}
-{/* TOP LOGOS */}
-{/* ================================================= */}
-
-<div className="relative z-20 max-w-7xl mx-auto flex justify-end items-center gap-6 mb-18">
-
-  <a href="/" className="flex items-center gap-5 group">
-
-    {/* Lab Logo */}
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-      alt="Lab Logo"
-      width={52}
-      height={52}
-      className="drop-shadow-[0_0_10px_rgba(34,211,238,0.75)]"
-    />
-
-    {/* Lab Name */}
-
-    <div className="text-center">
-
-      <h1 className="text-cyan-400 font-bold text-2xl leading-none group-hover:text-white transition">
-
-        PMLab
-
-      </h1>
-
-      <p className="text-sm text-gray-400 tracking-[0.25em] mt-1">
-
-        IISER Tirupati
-
-      </p>
-
-    </div>
-
-    {/* IISER Logo */}
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-      alt="IISER Logo"
-      width={52}
-      height={52}
-      className="drop-shadow-[0_0_10px_rgba(34,211,238,0.75)]"
-    />
-
-  </a>
-
-</div>
-
-
-
-
-
-
-
-
-
       <div className="max-w-7xl mx-auto">
 
         {/* Header Section */}

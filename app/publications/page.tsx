@@ -17,72 +17,7 @@ export default function PublicationsPage() {
   {/* Dark Overlay */}
 
 
-{/* ================================================= */}
-{/* TOP HEADER */}
-{/* ================================================= */}
 
-<div className="relative z-20 max-w-7xl mx-auto px-16 py-6 flex justify-between items-center mb-20">
-
-  {/* Title */}
-
-  <div>
-
-    <h1 className="relative z-20 text-5xl md:text-7xl font-bold leading-tight text-white drop-shadow-[0_0_25px_rgba(255,255,255,0.18)]">
-
-      Publications
-
-    </h1>
-
-  </div>
-
-  {/* Logos */}
-
-  <a
-    href="/"
-    className="relative z-20 flex items-center gap-5 group"
-  >
-
-    {/* Lab Logo */}
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-      alt="Lab Logo"
-      width={52}
-      height={52}
-      className="drop-shadow-[0_0_28px_rgba(34,211,238,1)]"
-    />
-
-    {/* Lab Name */}
-
-    <div className="text-center">
-
-      <h1 className="text-cyan-400 font-bold text-2xl leading-none group-hover:text-white transition drop-shadow-[0_0_18px_rgba(34,211,238,0.7)]">
-
-        PMLab
-
-      </h1>
-
-      <p className="text-sm text-gray-300 tracking-[0.25em] mt-1 drop-shadow-[0_0_12px_rgba(255,255,255,0.25)]">
-
-        IISER Tirupati
-
-      </p>
-
-    </div>
-
-    {/* IISER Logo */}
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-      alt="IISER Logo"
-      width={52}
-      height={52}
-      className="drop-shadow-[0_0_28px_rgba(34,211,238,1)]"
-    />
-
-  </a>
-
-</div>
 
 
 

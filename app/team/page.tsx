@@ -28,66 +28,6 @@ export default function TeamPage() {
       <section className="relative z-10 min-h-screen px-8 pt-10 pb-24">
 
 
-
-
-
-
-
-{/* ================================================= */}
-{/* TOP HEADER */}
-{/* ================================================= */}
-
-<div className="relative z-20 max-w-7xl mx-auto flex justify-start items-center pl-15 mb-0">
-
-  {/* Logos */}
-
-  <a href="/" className="flex items-center gap-5 group">
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-      alt="Lab Logo"
-      width={58}
-      height={58}
-      className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-    />
-
-    <div>
-
-      <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
-
-        PMLab
-
-      </h1>
-
-      <p className="text-gray-300 tracking-[0.25em] text-sm">
-
-        IISER Tirupati
-
-      </p>
-
-    </div>
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-      alt="IISER Logo"
-      width={58}
-      height={58}
-      className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-    />
-
-  </a>
-
-</div>
-
-
-
-
-
-
-
-
-
-
         {/* Main Hero */}
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center -mt-15">

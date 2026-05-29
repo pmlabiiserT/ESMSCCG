@@ -132,9 +132,9 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "MS Thesis Defense of Hitesh (07/05/2026)",
       images: [
-        "/photos/news/hitesh_1.jpeg",
-        "/photos/news/hitesh_2.jpeg",
-        "/photos/news/hitesh_3.jpeg",
+        "/ESMSCCG/photos/news/hitesh_1.jpeg",
+        "/ESMSCCG/photos/news/hitesh_2.jpeg",
+        "/ESMSCCG/photos/news/hitesh_3.jpeg",
       ],
     },
 
@@ -143,7 +143,7 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "Dinner party by Dr. Ray for his successful thesis defence (03/04/2026)",
       images: [
-        "/photos/news/ray_party.jpeg",
+        "/ESMSCCG/photos/news/ray_party.jpeg",
         
       ],
     },
@@ -154,54 +154,54 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "Soumyadip Ray's Open Defence: 02/04/2026",
       images: [
-        "/photos/news/ray_defence/f_1.jpg",
-        "/photos/news/ray_defence/f_2.jpg",
-        "/photos/news/ray_defence/f_3.jpg",
-        "/photos/news/ray_defence/f_4.jpg",
-        "/photos/news/ray_defence/f_5.jpg",
-        "/photos/news/ray_defence/f_6.jpg",
-        "/photos/news/ray_defence/f_7.jpg",
-        "/photos/news/ray_defence/f_8.jpg",
-        "/photos/news/ray_defence/f_9.jpg",
-        "/photos/news/ray_defence/f_10.jpg",
-        "/photos/news/ray_defence/f_11.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_1.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_2.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_3.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_4.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_5.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_6.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_7.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_8.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_9.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_10.jpg",
+        "/ESMSCCG/photos/news/ray_defence/f_11.jpg",
       ],
     },
 
     {
       caption: "IINCM 2026 (IISER Tirupati): 9-10 Jan, 2026",
       images: [
-        "/photos/news/iincm_2026/f_1.jpg",
-        "/photos/news/iincm_2026/f_2.jpg",
-        "/photos/news/iincm_2026/f_3.jpg",
-        "/photos/news/iincm_2026/f_4.jpg",
-        "/photos/news/iincm_2026/f_5.jpg",
-        "/photos/news/iincm_2026/f_6.jpg",
-        "/photos/news/iincm_2026/f_7.jpg",
-        "/photos/news/iincm_2026/f_8.jpg",
-        "/photos/news/iincm_2026/f_9.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_1.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_2.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_3.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_4.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_5.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_6.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_7.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_8.jpg",
+        "/ESMSCCG/photos/news/iincm_2026/f_9.jpg",
       ],
     },
 
     {
       caption: "Lab Dinner 2025",
       images: [
-        "/photos/news/2025_2.jpg",
-        "/photos/news/2025_1.png",
+        "/ESMSCCG/photos/news/2025_2.jpg",
+        "/ESMSCCG/photos/news/2025_1.png",
       ],
     },
 
     {
       caption: "CSTT-2025",
       images: [
-        "/photos/news/2025_f.jpg",
+        "/ESMSCCG/photos/news/2025_f.jpg",
       ],
     },
 
     {
       caption: "Chemistry Day - 2024",
       images: [
-        "/photos/news/2024.jpg",
+        "/ESMSCCG/photos/news/2024.jpg",
         
       ],
     },
@@ -209,8 +209,8 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "Teachers' Day - 2023",
       images: [
-        "/photos/news/2023_teachers_1.jpeg",
-        "/photos/news/2023_teachers_2_f.jpeg",
+        "/ESMSCCG/photos/news/2023_teachers_1.jpeg",
+        "/ESMSCCG/photos/news/2023_teachers_2_f.jpeg",
       ],
     },
 
@@ -218,7 +218,7 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "PMLab 2023",
       images: [
-        "/photos/news/2023.jpeg",
+        "/ESMSCCG/photos/news/2023.jpeg",
       ],
     },
 
@@ -227,9 +227,9 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "Lab Dinner 2022",
       images: [
-        "/photos/news/2022_1.jpeg",
-        "/photos/news/2022_2_f.jpeg",
-        "/photos/news/2022_4.jpeg",
+        "/ESMSCCG/photos/news/2022_1.jpeg",
+        "/ESMSCCG/photos/news/2022_2_f.jpeg",
+        "/ESMSCCG/photos/news/2022_4.jpeg",
       ],
     },
 
@@ -409,56 +409,11 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
 
 
   return (
-    <main className="min-h-screen bg-[url('/photos/news/bg.png')] bg-cover bg-center bg-fixed text-white px-8 pt-6 pb-24 relative overflow-hidden">
+    <main className="min-h-screen bg-[url('/ESMSCCG/photos/news/bg.png')] bg-cover bg-center bg-fixed text-white px-8 pt-6 pb-24 relative overflow-hidden">
 
       {/* Overlay */}
 
       <div className="absolute inset-0 bg-black/60" />
-
-
-{/* ================================================= */}
-{/* TOP LOGOS */}
-{/* ================================================= */}
-
-<div className="relative z-20 max-w-7xl mx-auto flex justify-end items-center gap-6 mb-0">
-
-  <a href="/" className="flex items-center gap-5 group">
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
-      alt="Lab Logo"
-      width={60}
-      height={60}
-      className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-    />
-
-    <div>
-
-      <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
-
-        PMLab
-
-      </h1>
-
-      <p className="text-gray-300 tracking-[0.25em] text-sm">
-
-        IISER Tirupati
-
-      </p>
-
-    </div>
-
-    <Image
-      src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
-      alt="IISER Logo"
-      width={60}
-      height={60}
-      className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
-    />
-
-  </a>
-
-</div>
 
 
 
