@@ -1,401 +1,235 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
-export default function NewsGalleryPage() {
-  const newsRef = useRef<HTMLDivElement>(null);
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [allImages, setAllImages] = useState<string[]>([]);
+export default function FacilitiesPage() {
 
-  const newsItems = [
+  const facilities = [
     {
-      title: "🎓 MS Thesis Defense",
-      content: "MS Thesis Defense of Atheena Krishna D on 08/05/2026",
-      doi: "",
-      note: "Congratulations Atheena and wishing you success for your future journey.",
-    },
-    {
-      title: "🎓 MS Thesis Defense",
-      content: "MS Thesis Defense of Hitesh on 07/05/2026",
-      doi: "",
-      note: "Congratulations Hitesh and wishing you success for your future journey.",
-    },
-    {
-      title: "📰 New Publication",
-      content: "Soumyadip Ray, Atheena Krishna D. and Padmabati Mondal published in <strong>PCCP</strong> on 06 May 2026 ",
-      doi: "10.1039/d5cp04855a",
-      note: "Congratulations Atheena for your first publication (semester project work). Congrats to Soumyadip also.",
-    },
-    {
-      title: "🎓 Open Defense",
-      content: "Congratulations <strong>Dr. Soumyadip Ray</strong> for successful open defense on 02/04/2026",
-      doi: "",
-      note: "Wishing you all the best for your future journey. May your journey ahead be filled with impactful achievements.",
-    },
-    {
-      title: "📰 New Publication",
-      content: "Suvadip Samanta, Soumyadip Ray, Padmabati Mondal published in <strong>Advanced Theory and Simulations</strong>",
-      doi: "10.1002/adts.202501684",
-      note: "",
-    },
-    {
-      title: "📰 New Publication",
-      content: "Soumyadip Ray, Sudip Sasmal, Padmabati Mondal published in <strong>Journal of Chemical Physics</strong>",
-      doi: "10.1063/5.0287684",
-      note: "",
-    },
-    {
-      title: "📰 New Publication",
-      content: "Padmabati Mondal published in <strong>Nature Chemical Biology</strong>",
-      doi: "10.1038/s41589-025-01961-w",
-      note: "",
-    },
-    {
-      title: "📰 New Publication",
-      content: "Arshjot S Dhaliwal, Arunima Verma and Padmabati Mondal published in <strong>RSC Advances</strong>",
-      doi: "10.1039/D5RA03789A",
-      note: "Congratulations Arshjot for your publications on your MS thesis work.",
-    },
-    {
-      title: "🏆 Achievement",
-      content: "<strong>Atheena Krishna D</strong> received the Summer Undergraduate Research Exposure (SURE) internship fellowship at IIT Hyderabad.",
-      doi: "",
-      note: "",
-    },
-    {
-      title: "🏆 Best Presentation Award",
-      content: "<strong>Arunima Verma</strong> received best oral presentation award in Statistical Mechanics in Chemistry and Biology 2024 (SMCB2024) held at IIT Tirupati (16-19 December, 2024).",
-      doi: "",
-      note: "",
-    },
-  ];
-
-  const gallery = [
-    {
-      caption: "MS Thesis Defense of Hitesh (07/05/2026)",
-      images: [
-        "/ESMSCCG/photos/news/hitesh_1.jpeg",
-        "/ESMSCCG/photos/news/hitesh_2.jpeg",
-        "/ESMSCCG/photos/news/hitesh_3.jpeg",
+      icon: "🖥️",
+      title: "FELUDA",
+      subtitle: "PMLab Dedicated HPC Cluster",
+      description:
+        "High-performance computing facility dedicated to molecular simulations, spectroscopy, quantum chemistry and multiscale modelling workflows.",
+      specs: [
+        "CPU Nodes: masternode + 7 compute node (64 processors each)",
       ],
     },
     {
-      caption: "Dinner party by Dr. Ray for his successful thesis defence (03/04/2026)",
-      images: [
-        "/ESMSCCG/photos/news/ray_party.jpeg",
+      icon: "⚡",
+      title: "ARYABHATA",
+      subtitle: "IISER Tirupati Central HPC Facility",
+      description:
+        "Newest addition to IISER Tirupati computational infrastructure supporting large-scale scientific simulations and parallel computing.",
+      specs: [
+        "62 Total Nodes",
+        "10 NVIDIA H100 GPU Nodes + 49 CPU Compute Nodes",
       ],
     },
     {
-      caption: "Soumyadip Ray's Open Defence: 02/04/2026",
-      images: [
-        "/ESMSCCG/photos/news/ray_defence/f_1.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_2.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_3.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_4.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_5.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_6.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_7.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_8.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_9.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_10.jpg",
-        "/ESMSCCG/photos/news/ray_defence/f_11.jpg",
+      icon: "⚙️",
+      title: "Additional HPC",
+      subtitle: "IISER Tirupati Central HPC Facility",
+      description:
+        "Supplementary computational infrastructure for high-throughput simulations, workflow testing and data-intensive calculations.",
+      specs: [
+        "CPU Nodes: 14 compute nodes (40 processors each)",
       ],
     },
     {
-      caption: "IINCM 2026 (IISER Tirupati): 9-10 Jan, 2026",
-      images: [
-        "/ESMSCCG/photos/news/iincm_2026/f_1.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_2.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_3.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_4.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_5.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_6.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_7.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_8.jpg",
-        "/ESMSCCG/photos/news/iincm_2026/f_9.jpg",
+      icon: "💻",
+      title: "Workstations",
+      subtitle: "In-Lab Facility",
+      description:
+        "High-end laboratory workstations for molecular visualization, simulations, trajectory analysis and scientific rendering.",
+      specs: [
+        "Workstation: 6 ",
+        "GPU Workstation: 5 dedicated GPU workstations ",
+        "STORAGE: 22TB NAS",
       ],
     },
     {
-      caption: "Lab Dinner 2025",
-      images: [
-        "/ESMSCCG/photos/news/2025_2.jpg",
-        "/ESMSCCG/photos/news/2025_1.png",
-      ],
-    },
-    {
-      caption: "CSTT-2025",
-      images: [
-        "/ESMSCCG/photos/news/2025_f.jpg",
-      ],
-    },
-    {
-      caption: "Chemistry Day - 2024",
-      images: [
-        "/ESMSCCG/photos/news/2024.jpg",
-      ],
-    },
-    {
-      caption: "Teachers' Day - 2023",
-      images: [
-        "/ESMSCCG/photos/news/2023_teachers_1.jpeg",
-        "/ESMSCCG/photos/news/2023_teachers_2_f.jpeg",
-      ],
-    },
-    {
-      caption: "PMLab 2023",
-      images: [
-        "/ESMSCCG/photos/news/2023.jpeg",
-      ],
-    },
-    {
-      caption: "Lab Dinner 2022",
-      images: [
-        "/ESMSCCG/photos/news/2022_1.jpeg",
-        "/ESMSCCG/photos/news/2022_2_f.jpeg",
-        "/ESMSCCG/photos/news/2022_4.jpeg",
+      icon: "🔬",
+      title: "Softwares",
+      subtitle: "Scientific Computing & Simulation Tools",
+      description:
+        "Computational chemistry, molecular simulation and scientific visualization software routinely used in PMLab research workflows.",
+      softwares: [
+        {
+          name: "Gaussian",
+          link: "https://gaussian.com/",
+        },
+        {
+          name: "GROMACS",
+          link: "https://www.gromacs.org/",
+        },
+        {
+          name: "ORCA",
+          link: "https://orcaforum.kofo.mpg.de/",
+        },
+        {
+          name: "VMD",
+          link: "https://www.ks.uiuc.edu/Research/vmd/",
+        },
+        {
+          name: "PyMOL",
+          link: "https://pymol.org/",
+        },
+        {
+          name: "Multiwfn",
+          link: "http://sobereva.com/multiwfn/",
+        },
+        {
+          name: "Quantum ESPRESSO",
+          link: "https://www.quantum-espresso.org/",
+        },
+        {
+          name: "CP2K",
+          link: "https://www.cp2k.org/",
+        },
       ],
     },
   ];
-
-  // News auto-scroll effect
-  useEffect(() => {
-    const container = newsRef.current;
-    if (!container) return;
-
-    let interval: NodeJS.Timeout;
-
-    const startScroll = () => {
-      interval = setInterval(() => {
-        if (
-          container.scrollTop + container.clientHeight >=
-          container.scrollHeight
-        ) {
-          container.scrollTop = 0;
-        } else {
-          container.scrollTop += 1;
-        }
-      }, 35);
-    };
-
-    startScroll();
-
-    container.addEventListener("mouseenter", () => {
-      clearInterval(interval);
-    });
-
-    container.addEventListener("mouseleave", () => {
-      startScroll();
-    });
-
-    return () => clearInterval(interval);
-  }, []);
-
-  // Gallery Component
-  const AutoScrollGallery = ({ images }: { images: string[] }) => {
-    const scrollRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-      const container = scrollRef.current;
-      if (!container) return;
-
-      let interval: NodeJS.Timeout;
-
-      const startScroll = () => {
-        interval = setInterval(() => {
-          const width = container.clientWidth;
-          if (container.scrollLeft + width >= container.scrollWidth - 5) {
-            container.scrollTo({
-              left: 0,
-              behavior: "smooth",
-            });
-          } else {
-            container.scrollBy({
-              left: width,
-              behavior: "smooth",
-            });
-          }
-        }, 3500);
-      };
-
-      startScroll();
-
-      container.addEventListener("mouseenter", () => {
-        clearInterval(interval);
-      });
-
-      container.addEventListener("mouseleave", () => {
-        startScroll();
-      });
-
-      return () => clearInterval(interval);
-    }, []);
-
-    return (
-      <div className="relative">
-        {/* LEFT BUTTON */}
-        {images.length > 1 && (
-          <button
-            onClick={() => {
-              scrollRef.current?.scrollBy({
-                left: -scrollRef.current.clientWidth,
-                behavior: "smooth",
-              });
-            }}
-            className="absolute left-3 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-black/60 backdrop-blur-md border border-cyan-400/30 text-cyan-300 text-3xl hover:scale-110 hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_25px_rgba(34,211,238,0.7)] transition-all duration-300"
-          >
-            ‹
-          </button>
-        )}
-
-        {/* RIGHT BUTTON */}
-        {images.length > 1 && (
-          <button
-            onClick={() => {
-              scrollRef.current?.scrollBy({
-                left: scrollRef.current.clientWidth,
-                behavior: "smooth",
-              });
-            }}
-            className="absolute right-3 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-black/60 backdrop-blur-md border border-cyan-400/30 text-cyan-300 text-3xl hover:scale-110 hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_25px_rgba(34,211,238,0.7)] transition-all duration-300"
-          >
-            ›
-          </button>
-        )}
-
-        {/* IMAGE SCROLLER */}
-        <div
-          ref={scrollRef}
-          className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide rounded-2xl border border-cyan-400/20"
-        >
-          {images.map((img, idx) => (
-            <div key={idx} className="min-w-full snap-center">
-              <Image
-                src={img}
-                alt="gallery"
-                width={600}
-                height={450}
-                onClick={() => {
-                  setSelectedImage(img);
-                  setAllImages(images);
-                }}
-                className="w-full h-[320px] object-cover cursor-pointer hover:opacity-90 transition duration-300"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  };
 
   return (
-    // FIXED: pt-48 ensures content sits neatly below the absolute floating header
-    <main className="min-h-screen bg-[url('/ESMSCCG/photos/news/bg.png')] bg-cover bg-center bg-fixed text-white px-8 pt-48 pb-10 relative overflow-hidden">
-      
+    <main className="min-h-screen bg-[url('/ESMSCCG/photos/facilities/bg_4.png')] bg-cover bg-center bg-fixed text-white px-8 pt-48 pb-24 relative">
+
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/40" />
 
       {/* ================================================= */}
-      {/* NEWS SECTION */}
+      {/* HERO SECTION */}
       {/* ================================================= */}
-      <section className="relative z-10 max-w-7xl mx-auto mb-20">
-        <h1 className="text-7xl font-black mb-12 ml-12 drop-shadow-[0_0_25px_rgba(255,255,255,0.15)]">
-          Latest News
-        </h1>
+      <section className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-24 -mt-6">
 
-        <div ref={newsRef} className="h-[500px] overflow-y-auto pr-4 space-y-8 scrollbar-thin scrollbar-thumb-cyan-400/40">
-          {newsItems.map((item, index) => (
+        {/* LEFT */}
+        <div>
+          <h1 className="text-7xl md:text-8xl font-black leading-none mb-8 drop-shadow-[0_0_25px_rgba(255,255,255,0.15)]">
+            Research Facilities
+          </h1>
+
+          <h2 className="text-3xl md:text-5xl text-cyan-300 font-semibold mb-10">
+            Computational Infrastructure of PMLab
+          </h2>
+
+          <div className="mt-16 flex justify-center lg:justify-start">
+            <button
+              onClick={() => {
+                window.scrollTo({
+                  top: window.innerHeight,
+                  behavior: "smooth",
+                });
+              }}
+              className="group flex flex-col items-center text-violet-300 hover:text-white transition-all duration-300 animate-[pulse_1.5s_infinite]"
+            >
+              <span className="text-2xl tracking-[0.18em] font-semibold mb-2 group-hover:scale-110 transition duration-300">
+                Scroll to Explore
+              </span>
+              <div className="text-5xl leading-none drop-shadow-[0_0_20px_rgba(34,211,238,0.8)] group-hover:translate-y-2 transition duration-300">
+                ↓
+              </div>
+            </button>
+          </div>
+        </div>
+
+        {/* RIGHT */}
+        <div className="relative z-[999]">
+          <div className="overflow-hidden rounded-[35px] border border-cyan-400/20 shadow-[0_0_50px_rgba(34,211,238,0.25)]">
+            <Image
+              src="/ESMSCCG/photos/facilities/aryabhatta.png"
+              alt="Aryabhatta HPC"
+              width={1200}
+              height={900}
+              className="w-full h-[500px] object-cover hover:scale-105 transition-all duration-700"
+            />
+          </div>
+
+          {/* Caption */}
+          <div className="mt-6 text-center">
+            <h3 className="text-4xl font-bold text-cyan-300 mb-3">
+              FELUDA
+            </h3>
+            <p className="text-gray-300 text-xl">
+              ESMSCCG HPC Facility
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      {/* ================================================= */}
+      {/* FACILITIES GRID */}
+      {/* ================================================= */}
+      <section
+        id="facilities-section"
+        className="relative z-10 max-w-7xl mx-auto"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {facilities.map((facility, index) => (
             <div
               key={index}
-              className="relative overflow-hidden backdrop-blur-md bg-black/35 border border-cyan-400/15 rounded-[10px] p-6 hover:scale-[1.02] hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_70px_rgba(34,211,238,0.35)] transition-all duration-500"
+              className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-[35px] p-10 hover:scale-[1.04] hover:-translate-y-2 hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_80px_rgba(34,211,238,0.35)] transition-all duration-500"
             >
-              {/* Blinking Dot */}
-              <div className="absolute top-7 right-7 w-4 h-4 rounded-full bg-lime-400 animate-ping" />
+              {/* Header */}
+              <div className="flex items-center gap-5 mb-8">
+                <div className="text-5xl">
+                  {facility.icon}
+                </div>
+                <div>
+                  <h2 className="text-4xl font-bold text-cyan-300">
+                    {facility.title}
+                  </h2>
+                  <p className="text-gray-400 text-lg mt-1">
+                    {facility.subtitle}
+                  </p>
+                </div>
+              </div>
 
-              <h2 className="text-4xl font-bold text-cyan-300 mb-2">
-                {item.title}
-              </h2>
-
-              <p className="text-2xl text-gray-200 leading-relaxed mb-2">
-                <span dangerouslySetInnerHTML={{ __html: item.content }} />
+              {/* Description */}
+              <p className="text-gray-300 text-xl leading-relaxed mb-8">
+                {facility.description}
               </p>
 
-              {item.doi && (
-                <p className="text-xl mt-4">
-                  <span className="italic text-pink-300">DOI:</span>{" "}
-                  <a
-                    href={`https://doi.org/${item.doi}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-cyan-300 hover:text-white transition duration-300 hover:underline"
-                  >
-                    {item.doi}
-                  </a>
-                </p>
-              )}
-
-              {item.note && (
-                <p className="text-xl text-lime-300 mt-2 leading-relaxed border-l-2 border-lime-400 pl-4">
-                  {item.note}
-                </p>
+              {/* Specs/Softwares Conditonal Rendering */}
+              {'softwares' in facility && facility.softwares ? (
+                <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-8">
+                  {facility.softwares.map((software, idx) => (
+                    <a
+                      key={idx}
+                      href={software.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 text-lg text-cyan-300 hover:text-white hover:translate-x-2 transition-all duration-300"
+                    >
+                      <div className="w-2 h-2 rounded-full bg-cyan-400" />
+                      <span>{software.name}</span>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <div className="space-y-4">
+                  {facility.specs?.map((spec, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-center gap-4 text-lg text-gray-200"
+                    >
+                      <div className="w-2 h-2 rounded-full bg-cyan-400" />
+                      <span>{spec}</span>
+                    </div>
+                  ))}
+                </div>
               )}
             </div>
           ))}
         </div>
       </section>
-
-      {/* ================================================= */}
-      {/* GALLERY SECTION */}
-      {/* ================================================= */}
-      <section className="relative z-10 max-w-7xl mx-auto mb-20">
-        <h1 className="text-7xl font-black mb-12 ml-12 drop-shadow-[0_0_25px_rgba(255,255,255,0.15)] mt-32">
-          Gallery
-        </h1>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {gallery.map((album, index) => (
-            <div key={index} className="backdrop-blur-md bg-black/40 border border-cyan-400/20 rounded-[25px] p-6 shadow-[0_0_35px_rgba(0,0,0,0.5)]">
-              <h3 className="text-2xl font-semibold text-cyan-300 mb-4 h-16 flex items-center">
-                {album.caption}
-              </h3>
-              <AutoScrollGallery images={album.images} />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ================================================= */}
-      {/* FULLSCREEN IMAGE MODAL */}
-      {/* ================================================= */}
-      {selectedImage && (
-        <div 
-          className="fixed inset-0 z-[999999] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 cursor-pointer"
-          onClick={() => setSelectedImage(null)}
-        >
-          {/* Close Button */}
-          <button
-            onClick={() => setSelectedImage(null)}
-            className="absolute top-8 right-8 text-white hover:text-cyan-400 text-6xl transition-colors cursor-pointer"
-          >
-            &times;
-          </button>
-
-          <Image
-            src={selectedImage}
-            alt="Expanded gallery image"
-            width={1200}
-            height={800}
-            className="max-w-[90vw] max-h-[85vh] object-contain rounded-xl shadow-[0_0_50px_rgba(34,211,238,0.3)] cursor-default"
-            onClick={(e) => e.stopPropagation()} // Prevents closing when clicking the image itself
-          />
-        </div>
-      )}
 
       {/* ================================================= */}
       {/* FOOTER */}
       {/* ================================================= */}
-      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 items-end mt-20 pb-4">
-        
+      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 items-end mt-32 pb-0">
+
         {/* LEFT — VISITOR MAP */}
         <div className="flex flex-col items-center lg:items-start">
           <a
