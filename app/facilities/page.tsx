@@ -57,37 +57,31 @@ export default function FacilitiesPage() {
         "Computational chemistry, molecular simulation and scientific visualization software routinely used in PMLab research workflows.",
       softwares: [
         {
-          name: "Gaussian",
-          link: "https://gaussian.com/",
+          name: "Gaussian 09",
+          link: "https://gaussian.com/glossary/g09/",
         },
+        
         {
-          name: "GROMACS",
-          link: "https://www.gromacs.org/",
+          name: "Gaussian 16",
+          link: "https://gaussian.com/gaussian16/",
         },
+        
         {
-          name: "ORCA",
-          link: "https://orcaforum.kofo.mpg.de/",
+          name: "GaussView 6",
+          link: "https://gaussian.com/gaussview6/",
         },
+        
         {
-          name: "VMD",
-          link: "https://www.ks.uiuc.edu/Research/vmd/",
+          name: "Molpro 2025",
+          link: "https://www.molpro.net/",
         },
+        
+        
         {
-          name: "PyMOL",
-          link: "https://pymol.org/",
+          name: " Chemcraft",
+          link: "https://www.chemcraftprog.com/",
         },
-        {
-          name: "Multiwfn",
-          link: "http://sobereva.com/multiwfn/",
-        },
-        {
-          name: "Quantum ESPRESSO",
-          link: "https://www.quantum-espresso.org/",
-        },
-        {
-          name: "CP2K",
-          link: "https://www.cp2k.org/",
-        },
+       
       ],
     },
   ];
