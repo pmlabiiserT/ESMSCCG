@@ -9,6 +9,19 @@ const [selectedImage, setSelectedImage] = useState<string | null>(null);
 const [allImages, setAllImages] = useState<string[]>([]);
   const newsItems = [
 
+
+          {
+            title: "📰 New Publication",
+          
+            content:
+              "Prabhakar Bhardwaj, Sanjai Muthusamy, Soumyadip Ray, Padmabati Mondal and Pankaj Kumar published in <strong>Inorganic Chemistry Frontiers</strong>",
+          
+            doi:
+              "DOI: 10.1039/D6QI00546B",
+          },
+
+
+    
           {
             title: "🎓 MS Thesis Defense",
 
