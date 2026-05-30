@@ -421,7 +421,7 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
 
 
   return (
-    <main className="min-h-screen bg-[url('/ESMSCCG/photos/news/bg.png')] bg-cover bg-center bg-fixed text-white px-8 pt-6 pb-24 relative overflow-hidden">
+    <main className="min-h-screen bg-[url('/ESMSCCG/photos/news/bg.png')] bg-cover bg-center bg-fixed text-white px-8 pt-32 pb-24 relative overflow-hidden">
 
       {/* Overlay */}
 

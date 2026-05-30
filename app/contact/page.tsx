@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#050816] via-[#081c34] to-[#0d2d52] text-white px-8 pt-28 pb-24">
+    <main className="min-h-screen bg-gradient-to-b from-[#050816] via-[#081c34] to-[#0d2d52] text-white px-8 pt-32 pb-24">
 
       
 
@@ -171,16 +171,13 @@ export default function ContactPage() {
 
           <p className="text-2xl text-gray-300 leading-relaxed max-w-4xl mx-auto mb-10">
 
-            Opportunities for PhD, MS Thesis,
-            semester projects, and research collaborations
-            will be announced here.
-
+	Always interested in hearing from motivated students, researchers, and collaborators. 
           </p>
 
 
           <div className="mt-12 text-gray-400 text-xl tracking-[0.25em] uppercase">
 
-            Stay Tuned for Future Opportunities
+            Opportunities are available for PhD and MS thesis research, semester projects, internships. If your interests align with our research areas, please feel free to contact us by email with a brief CV.
 
           </div>
 

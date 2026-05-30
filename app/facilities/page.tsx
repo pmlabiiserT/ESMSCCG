@@ -16,10 +16,7 @@ export default function FacilitiesPage() {
         "High-performance computing facility dedicated to molecular simulations, spectroscopy, quantum chemistry and multiscale modelling workflows.",
 
       specs: [
-        "CPU Nodes: XXXX",
-        "GPU Nodes: XXXX",
-        "RAM: XXXX",
-        "Storage: XXXX",
+        "CPU Nodes: masternode + 7 compute node (64 processors each)",
       ],
     },
 
@@ -33,38 +30,32 @@ export default function FacilitiesPage() {
       specs: [
       "62 Total Nodes",
       "10 NVIDIA H100 GPU Nodes + 49 CPU Compute Nodes",
-      "Intel Xeon Platinum Processors",
-      "684 TFLOPS High-Speed Hybrid Computing Performance",
     ],
     },
 
     {
       title: "Additional HPC",
-      subtitle: "Computational Expansion Cluster",
+      subtitle: "IISER Tirupati Central HPC Facility",
       
       description:
         "Supplementary computational infrastructure for high-throughput simulations, workflow testing and data-intensive calculations.",
 
       specs: [
-        "CPU Nodes: XXXX",
-        "GPU Nodes: XXXX",
-        "RAM: XXXX",
-        "Storage: XXXX",
+        "CPU Nodes: 14 compute nodes (40 processors each)",
       ],
     },
 
     {
       title: "Workstations",
-      subtitle: "Laboratory Computing Systems",
+      subtitle: "In-Lab Facility",
       
       description:
         "High-end laboratory workstations for molecular visualization, simulations, trajectory analysis and scientific rendering.",
 
       specs: [
-        "Workstations: XXXX",
-        "GPUs: XXXX",
-        "RAM: XXXX",
-        "Displays: XXXX",
+        "Workstation: 6 ",
+        "GPU Workstation: 5 dedicated GPU workstations ",
+        "STORAGE: 22TB NAS",
       ],
     },
 
@@ -122,23 +113,6 @@ export default function FacilitiesPage() {
 
         ],
       },
-
-    
-
-
-    {
-      title: "Research Fridge",
-      subtitle: "Essential Cooling Infrastructure",
-      icon: "❄️",
-      description:
-        "Keeping both refreshments and research energy levels stable during long simulation runs and manuscript deadlines.",
-
-      specs: [
-        "Cooling Capacity: ♾️",
-        "Productivity Boost: High",
-        "Scientific Importance: Critical",
-      ],
-    },
 
   ];
 
@@ -223,13 +197,13 @@ export default function FacilitiesPage() {
 
             <h3 className="text-4xl font-bold text-cyan-300 mb-3">
 
-              ARYABHATA
+              FELUDA
 
             </h3>
 
             <p className="text-gray-300 text-xl">
 
-              The newest addition to IISER Tirupati computational facilities
+              ESMSCCG HPC Facility
 
             </p>
 

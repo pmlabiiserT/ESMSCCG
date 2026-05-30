@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function PublicationsPage() {
   return (
-    <main className="relative min-h-screen overflow-hidden text-white px-6 pt-26 pb-24">
+    <main className="relative min-h-screen overflow-hidden text-white px-6 pt-32 pb-24">
 
   {/* Background Image */}
 
