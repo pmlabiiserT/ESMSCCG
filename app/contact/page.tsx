@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#050816] via-[#081c34] to-[#0d2d52] text-white px-8 pt-10 pb-24">
+    <main className="min-h-screen bg-gradient-to-b from-[#050816] via-[#081c34] to-[#0d2d52] text-white px-8 pt-28 pb-24">
 
       
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ResearchPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#030712] via-[#07111f] to-[#030712] text-white px-6 pt-12 pb-24">
+    <main className="min-h-screen bg-gradient-to-b from-[#030712] via-[#07111f] to-[#030712] text-white px-6 pt-28 pb-24">
 
     <div className="relative z-20 max-w-7xl mx-auto px-14 py-6 flex justify-between items-center mb-20">
 

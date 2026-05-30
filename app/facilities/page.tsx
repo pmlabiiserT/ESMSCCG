@@ -143,7 +143,7 @@ export default function FacilitiesPage() {
   ];
 
   return (
-  <main className="min-h-screen bg-[url('/ESMSCCG/photos/facilities/bg_4.png')] bg-cover bg-center bg-fixed text-white px-8 pt-6 pb-24 relative">
+  <main className="min-h-screen bg-[url('/ESMSCCG/photos/facilities/bg_4.png')] bg-cover bg-center bg-fixed text-white px-8 pt-28 pb-24 relative">
 
     {/* Overlay */}
     <div className="absolute inset-0 bg-black/40" />

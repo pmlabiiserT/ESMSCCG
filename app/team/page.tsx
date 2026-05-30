@@ -15,7 +15,7 @@ export default function TeamPage() {
       {/* HERO + FOOTBALL FIELD */}
       {/* ===================================================== */}
 
-      <section className="relative z-10 min-h-screen px-8 pt-10 pb-24">
+      <section className="relative z-10 min-h-screen px-8 pt-28 pb-24">
 
         {/* Main Hero */}
 

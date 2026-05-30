@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white px-6 pt-8 pb-24">
+    <main className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white px-6 pt-28 pb-24">
      
 
       <div className="max-w-7xl mx-auto">
