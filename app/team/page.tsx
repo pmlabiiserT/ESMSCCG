@@ -15,7 +15,7 @@ export default function TeamPage() {
       {/* HERO + FOOTBALL FIELD */}
       {/* ===================================================== */}
 
-      <section className="relative z-10 min-h-screen px-8 pt-38 pb-24">
+      <section className="relative z-10 min-h-screen px-8 pt-48 pb-24">
 
         {/* Main Hero */}
 
@@ -429,7 +429,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic: 
               </span>{" "}
-              Biomolecular Simulation of Protein and DNA ; MD Simulation and Enhanced Sampling
+              Biomolecular Simulation of Protein and DNA ; MD Simulation with Enhanced Sampling Methods
             </p>
 
            <p>
@@ -511,7 +511,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Reaction Mechanism ; Photochemistry ; QM-MM MD Simulation ; Force Field Development
+              Reaction Mechanism ; Photochemistry ; QM/MM MD Simulation ; Force Field Development
             </p>
 
             <p>
@@ -798,7 +798,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Reaction Mechanism ; Biomolecular simulation ; QMMM-MD Simulation
+              Reaction Mechanism ; Biomolecular simulation ; QM/MM-MD Simulation
             </p>
 
             <p>
@@ -881,21 +881,21 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              August 2025
+              Aug, 2026
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              Introductory computational chemistry
+              XXXXXXXXXXXXX
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              Science, Football, Creative work
+              XXXXXXXXXXXXXXX
             </p>
 
 
@@ -910,12 +910,10 @@ export default function TeamPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-300 hover:text-white hover:underline transition duration-300">
-                name@iisertirupati.ac.in
+                XXXXXXXXXXX
               </a>
 
             </p>
-
-
 
           </div>
 
@@ -988,6 +986,31 @@ export default function TeamPage() {
 
             <p className="text-gray-400">
               Jan,2025 — Jul,2026
+            </p>
+
+          </div>
+
+{/* Alumni  */}
+	  <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
+
+            <Image
+              src="/ESMSCCG/photos/team/alumni/f_gourav.png"
+              alt="alumni"
+              width={240}
+              height={240}
+              className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"
+            />
+
+            <h3 className="text-2xl font-bold text-white mb-2">
+              Gourav Karhana
+            </h3>
+
+            <p className="text-cyan-300 text-lg mb-1">
+              Semester Project
+            </p>
+
+            <p className="text-gray-400">
+              Aug,2025 — Dec,2025
             </p>
 
           </div>

@@ -171,13 +171,14 @@ export default function ContactPage() {
 
           <p className="text-2xl text-gray-300 leading-relaxed max-w-4xl mx-auto mb-10">
 
-	Always interested in hearing from motivated students, researchers, and collaborators. 
+	  Opportunities are available for PhD and MS thesis research, semester projects, internships. If your interests align with our research areas, please feel free to contact us by email with a brief CV.
+
           </p>
 
 
           <div className="mt-12 text-gray-400 text-xl tracking-[0.25em] uppercase">
 
-            Opportunities are available for PhD and MS thesis research, semester projects, internships. If your interests align with our research areas, please feel free to contact us by email with a brief CV.
+		Always interested in hearing from motivated students, researchers, and collaborators.
 
           </div>
 
