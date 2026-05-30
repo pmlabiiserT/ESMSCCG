@@ -152,7 +152,7 @@ export default function TeamPage() {
 
             <a
               href="#phd3"
-              className="absolute top-[34%] left-[20%] flex flex-col items-center group"
+              className="absolute top-[36%] left-[15%] flex flex-col items-center group"
             >
 
               <Image
@@ -173,7 +173,7 @@ export default function TeamPage() {
 
             <a
               href="#phd4"
-              className="absolute top-[34%] right-[20%] flex flex-col items-center group"
+              className="absolute top-[36%] right-[15%] flex flex-col items-center group"
             >
 
               <Image
@@ -215,7 +215,7 @@ export default function TeamPage() {
 
             <a
               href="#ms1"
-              className="absolute bottom-[20%] left-[15%] flex flex-col items-center group"
+              className="absolute bottom-[20%] left-[20%] flex flex-col items-center group"
             >
 
               <Image
@@ -234,7 +234,7 @@ export default function TeamPage() {
 
             <a
               href="#ms3"
-              className="absolute bottom-[20%] right-[15%] flex flex-col items-center group"
+              className="absolute bottom-[20%] right-[20%] flex flex-col items-center group"
             >
 
               <Image
