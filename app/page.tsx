@@ -215,7 +215,7 @@ export default function Home() {
 <div className="flex flex-col items-center lg:items-start">
 
   <a
-    href="http://s01.flagcounter.com/more/PPaE"
+    href="https://s01.flagcounter.com/more/PPaE"
     target="_blank"
     rel="noopener noreferrer"
   >
