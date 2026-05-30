@@ -28,7 +28,7 @@ export default function Home() {
   {/* MAIN HERO SECTION */}
   {/* ================================================= */}
       {/* Main Hero Section */}
-      <section className="relative z-10 flex flex-col items-center justify-center min-h-screen -mt-20 px-6 text-center">
+      <section className="relative z-10 flex flex-col items-center justify-center min-h-screen -mt-20 px-6 pt-38 text-center">
 
         {/* Logo */}
         <div className="mb-8">
