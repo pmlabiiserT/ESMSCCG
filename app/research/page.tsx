@@ -145,7 +145,7 @@ export default function ResearchPage() {
                 href="https://www.rbvi.ucsf.edu/chimera/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 UCSF Chimera
               </a>
@@ -154,7 +154,7 @@ export default function ResearchPage() {
                 href="https://www.pymol.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 PyMOL
               </a>
@@ -163,7 +163,7 @@ export default function ResearchPage() {
                 href="https://www.ks.uiuc.edu/Research/vmd/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 VMD
               </a>
@@ -172,7 +172,7 @@ export default function ResearchPage() {
                 href="https://avogadro.cc/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 Avogadro
               </a>
@@ -181,7 +181,7 @@ export default function ResearchPage() {
                 href="https://alphafoldserver.com/welcome"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 AlphaFold
               </a>
@@ -190,7 +190,7 @@ export default function ResearchPage() {
                 href="https://www.swissdock.ch/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 SwissDock
               </a>
@@ -199,19 +199,17 @@ export default function ResearchPage() {
                 href="https://autodock.scripps.edu"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 AutoDock
               </a>
           
-          
-              </a>
-          
+                                
               <a
                 href="https://ccsb.scripps.edu/agfr/documentation/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 AutoDockFR
               </a>
@@ -220,7 +218,7 @@ export default function ResearchPage() {
                 href="https://cgenff.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 CGenFF
               </a>
@@ -229,7 +227,7 @@ export default function ResearchPage() {
                 href="https://www.charmm-gui.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 CHARMM-GUI
               </a>
@@ -238,7 +236,7 @@ export default function ResearchPage() {
                 href="https://www.gromacs.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 GROMACS
               </a>
@@ -247,7 +245,7 @@ export default function ResearchPage() {
                 href="https://www.schrodinger.com/platform/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
               >
                 Schrödinger
               </a>
