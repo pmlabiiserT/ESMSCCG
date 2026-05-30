@@ -95,7 +95,46 @@ export default function PublicationsPage() {
 
   <div className="space-y-12">
 
+
+
+
     {/* Paper 1 */}
+    
+    <div className="backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-8 hover:bg-cyan-400/5 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.25)] transition-all duration-500">
+    
+      <a
+        href="https://doi.org/10.1039/D5CP04855A"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+    
+        <p className="text-2xl text-gray-200 leading-relaxed hover:text-cyan-300 transition duration-300">
+    
+          S. Ray, A. Krishna D.,
+          P. Mondal,
+    
+          "Photophysics and Complexation of Indolic Compounds:
+          The Effect of Intra-annular and Extra-annular Substitution"
+    
+          <span className="italic text-cyan-400 ml-2">
+            Phys. Chem. Chem. Phys.
+          </span>
+    
+          , 2026, 28, 12472–12482
+    
+        </p>
+    
+      </a>
+    
+    </div>
+
+
+
+
+
+    
+    {/* Paper 2 */}
 
     <div className="backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-8 hover:bg-cyan-400/5 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.25)] transition-all duration-500">
 
@@ -127,7 +166,9 @@ export default function PublicationsPage() {
 
     </div>
 
-    {/* Paper 2 */}
+
+    
+    {/* Paper 3 */}
 
     <div className="backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-8 hover:bg-cyan-400/5 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.25)] transition-all duration-500">
 
