@@ -131,130 +131,130 @@ export default function ResearchPage() {
 
           {/* TOOLS */}
 
-<div className="mt-8">
-
-  <h3 className="text-cyan-400 text-2xl font-bold mb-4">
-
-    Tools
-
-  </h3>
-
-  <div className="flex flex-wrap gap-4">
-
-    <a
-      href="https://www.rbvi.ucsf.edu/chimera/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      UCSF Chimera
-    </a>
-
-    <a
-      href="https://www.pymol.org/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      PyMOL
-    </a>
-
-    <a
-      href="https://www.ks.uiuc.edu/Research/vmd/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      VMD
-    </a>
-
-    <a
-      href="https://avogadro.cc/index.html"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      Avogadro
-    </a>
-
-    <a
-      href="https://alphafoldserver.com/welcome"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      AlphaFold
-    </a>
-
-    <a
-      href="https://www.swissdock.ch/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      SwissDock
-    </a>
-
-    <a
-      href="https://autodock.scripps.edu"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      AutoDock
-    </a>
-
-
-    </a>
-
-    <a
-      href="https://ccsb.scripps.edu/agfr/documentation/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      AutoDockFR
-    </a>
-
-    <a
-      href="https://cgenff.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      CGenFF
-    </a>
-
-    <a
-      href="https://www.charmm-gui.org/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      CHARMM-GUI
-    </a>
-
-    <a
-      href="https://www.gromacs.org/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      GROMACS
-    </a>
-
-    <a
-      href="https://www.schrodinger.com/platform/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
-    >
-      Schrödinger
-    </a>
-
-  </div>
-
-</div>
+          <div className="mt-8">
+          
+            <h3 className="text-cyan-400 text-2xl font-bold mb-4">
+          
+              Tools
+          
+            </h3>
+          
+            <div className="flex flex-wrap gap-4">
+          
+              <a
+                href="https://www.rbvi.ucsf.edu/chimera/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                UCSF Chimera
+              </a>
+          
+              <a
+                href="https://www.pymol.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                PyMOL
+              </a>
+          
+              <a
+                href="https://www.ks.uiuc.edu/Research/vmd/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                VMD
+              </a>
+          
+              <a
+                href="https://avogadro.cc/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                Avogadro
+              </a>
+          
+              <a
+                href="https://alphafoldserver.com/welcome"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                AlphaFold
+              </a>
+          
+              <a
+                href="https://www.swissdock.ch/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                SwissDock
+              </a>
+          
+              <a
+                href="https://autodock.scripps.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                AutoDock
+              </a>
+          
+          
+              </a>
+          
+              <a
+                href="https://ccsb.scripps.edu/agfr/documentation/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                AutoDockFR
+              </a>
+          
+              <a
+                href="https://cgenff.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                CGenFF
+              </a>
+          
+              <a
+                href="https://www.charmm-gui.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                CHARMM-GUI
+              </a>
+          
+              <a
+                href="https://www.gromacs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                GROMACS
+              </a>
+          
+              <a
+                href="https://www.schrodinger.com/platform/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                Schrödinger
+              </a>
+          
+            </div>
+          
+          </div>
 
           
 
