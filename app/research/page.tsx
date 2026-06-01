@@ -142,7 +142,27 @@ export default function ResearchPage() {
                       Jmol
                     </a>
       
-      
+
+                    <a
+                      href="https://avogadro.cc/index.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                    >
+                      Avogadro
+                    </a>
+
+
+                    <a
+                      href="https://gaussian.com/glossary/g09/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                    >
+                      Gaussian 09
+                    </a>
+
+                    
                      <a
                       href="https://gaussian.com/gaussian16/"
                       target="_blank"
@@ -152,7 +172,17 @@ export default function ResearchPage() {
                       Gaussian 16
                     </a>
       
-      
+
+                    <a
+                      href="https://gaussian.com/gaussview6/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                    >
+                      GaussView 6
+                    </a>
+
+                    
                      <a
                       href="https://www.molpro.net/"
                       target="_blank"
@@ -161,6 +191,17 @@ export default function ResearchPage() {
                     >
                       Molpro 2025
                     </a>
+
+                    <a
+                      href="https://www.chemcraftprog.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                    >
+                      Chemcraft
+                    </a>
+                    
+                    
 
                  </div>
              </div>
