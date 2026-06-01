@@ -101,6 +101,68 @@ export default function ResearchPage() {
 
           </p>
 
+
+           {/* TOOLS */}
+
+          <div className="mt-8">
+          
+            <h3 className="text-cyan-400 text-2xl font-bold mb-4">
+          
+              Tools
+          
+            </h3>
+          
+            <div className="flex flex-wrap gap-4">
+          
+              <a
+                href="https://www.pci.uni-heidelberg.de/tc/usr/mctdh/doc/mctdh/gen.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+               MCTDH
+              </a>
+
+               <a
+                href="https://nubakery.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                BAGEL
+              </a>
+
+
+               <a
+                href="https://jmol.sourceforge.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                Jmol
+              </a>
+
+
+               <a
+                href="https://gaussian.com/gaussian16/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                Gaussian 16
+              </a>
+
+
+               <a
+                href="https://www.molpro.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+              >
+                Molpro 2025
+              </a>
+
+
         </div>
 
       </section>
