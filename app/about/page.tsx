@@ -43,6 +43,42 @@ export default function AboutPage() {
 
             </h1>
 
+
+                <div className="flex flex-wrap items-center gap-3 md:gap-5 mb-8 text-lg md:text-xl">
+                
+                  <a
+                    href="https://scholar.google.com/citations?user=u61Vm5MAAAAJ&hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-300 hover:text-white transition duration-300 hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.8)]"
+                  >
+                    Google Scholar
+                  </a>
+                
+                  <span className="text-gray-500">|</span>
+                
+                  <a
+                    href="https://orcid.org/0000-0003-1523-630X"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-300 hover:text-white transition duration-300 hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.8)]"
+                  >
+                    ORCID ID
+                  </a>
+                
+                  <span className="text-gray-500">|</span>
+                
+                  <a
+                    href="https://www.researchgate.net/profile/Padmabati-Mondal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-300 hover:text-white transition duration-300 hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.8)]"
+                  >
+                    ResearchGate
+                  </a>
+                
+                </div>
+
                 <div className="flex items-center gap-5 mt-5 mb-8 flex-wrap">
 
                   <p className="text-gray-300 text-xl md:text-2xl leading-relaxed tracking-wide">
