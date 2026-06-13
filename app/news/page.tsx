@@ -259,6 +259,13 @@ const [allImages, setAllImages] = useState<string[]>([]);
     },
 
 
+   {
+      caption: "Chemistry Day - 2022",
+      images: [
+        "/ESMSCCG/photos/news/2022_chemistryday.jpeg",
+        
+      ],
+    },
 
     
 
