@@ -668,7 +668,7 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-               Numismatist, Philatelist, Gypsy traveller. Food-Football-Photography.
+               Numismatist, Philatelist, Traveller. Food-Football-Photography.
             </p>
 
 
