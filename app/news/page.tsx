@@ -2,6 +2,10 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import {
+  TransformWrapper,
+  TransformComponent,
+} from "react-zoom-pan-pinch";
 
 export default function NewsGalleryPage() {
 const newsRef = useRef<HTMLDivElement>(null);
@@ -664,13 +668,31 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
 
     {/* FULLSCREEN IMAGE */}
 
-    <Image
-      src={selectedImage}
-      alt="fullscreen"
-      width={1600}
-      height={1200}
-      className="max-w-full max-h-full object-contain rounded-2xl shadow-[0_0_60px_rgba(34,211,238,0.35)]"
-    />
+    
+
+    <TransformWrapper
+      initialScale={1}
+      minScale={1}
+      maxScale={5}
+      wheel={{ step: 0.15 }}
+      doubleClick={{ mode: "toggle" }}
+      pinch={{ step: 5 }}
+      panning={{ velocityDisabled: true }}
+    >
+    
+      <TransformComponent>
+    
+        <Image
+          src={selectedImage}
+          alt="fullscreen"
+          width={1600}
+          height={1200}
+          className="max-w-full max-h-full object-contain rounded-2xl shadow-[0_0_60px_rgba(34,211,238,0.35)]"
+        />
+    
+      </TransformComponent>
+    
+    </TransformWrapper>
 
   </div>
 
