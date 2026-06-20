@@ -671,7 +671,7 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
     
 
     <TransformWrapper
-      initialScale={1}
+      initialScale={0.9}
       minScale={1}
       maxScale={5}
       wheel={{ step: 0.15 }}
@@ -687,7 +687,7 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
           alt="fullscreen"
           width={1600}
           height={1200}
-          className="max-w-full max-h-full object-contain rounded-2xl shadow-[0_0_60px_rgba(34,211,238,0.35)]"
+          className="max-w-[92vw] max-h-[92vh] object-contain rounded-2xl shadow-[0_0_60px_rgba(34,211,238,0.35)]"
         />
     
       </TransformComponent>
