@@ -27,16 +27,8 @@ export default function FacilitiesPage() {
         "10 NVIDIA H100 GPU Nodes + 49 CPU Compute Nodes",
       ],
     },
-    {
-      icon: "⚙️",
-      title: "Additional HPC",
-      subtitle: "IISER Tirupati Central HPC Facility",
-      description:
-        "Supplementary computational infrastructure for high-throughput simulations, workflow testing and data-intensive calculations.",
-      specs: [
-        "CPU Nodes: 14 compute nodes (40 processors each)",
-      ],
-    },
+
+    
     {
       icon: "💻",
       title: "Workstations",
