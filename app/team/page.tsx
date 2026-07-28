@@ -760,7 +760,7 @@ export default function TeamPage() {
         <div className="flex justify-center order-1 lg:order-2">
 
           <Image
-            src="/ESMSCCG/photos/team/sulekha_1.jpeg"
+            src="/ESMSCCG/photos/team/f_sulekha_2.jpeg"
             alt="member"
             width={420}
             height={420}
