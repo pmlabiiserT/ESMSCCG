@@ -219,7 +219,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/ESMSCCG/photos/team/f_sulekha_1.jpeg"
+                src="/ESMSCCG/photos/team/f_sulekha_2.jpeg"
                 alt="member"
                 width={90}
                 height={90}
