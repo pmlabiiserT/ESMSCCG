@@ -17,7 +17,7 @@ export default function Home() {
   <div
     className="fixed inset-0 bg-cover bg-center opacity-40 z-0"
     style={{
-      backgroundImage: "url('/photos/home_pic/home_bg_final.png')",
+      backgroundImage: "url('/ESMSCCG/photos/home_pic/home_bg_final.png')",
     }}
   />
 
@@ -33,7 +33,7 @@ export default function Home() {
         {/* Logo */}
         <div className="mb-8">
           <Image
-            src="/photos/home_pic/logo_round_wo_B.png"
+            src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
             alt="Lab Logo"
             width={160}
             height={160}

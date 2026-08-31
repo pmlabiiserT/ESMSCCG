@@ -19,7 +19,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-cyan-400/35 blur-[90px] rounded-full"></div>
 
               <Image
-                src="/photos/about_pi_pic/blurry.jpg"
+                src="/ESMSCCG/photos/about_pi_pic/blurry.jpg"
                 alt="Dr. Padmabati Mondal"
                 width={420}
                 height={420}

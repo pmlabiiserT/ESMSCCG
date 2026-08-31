@@ -10,7 +10,7 @@ export default function PublicationsPage() {
   <div
     className="fixed inset-0 bg-cover bg-center opacity-30 z-0"
     style={{
-      backgroundImage: "url('/photos/publications/bg.png')",
+      backgroundImage: "url('/ESMSCCG/photos/publications/bg.png')",
     }}
   />
 

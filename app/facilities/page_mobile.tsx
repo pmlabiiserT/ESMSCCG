@@ -79,7 +79,7 @@ export default function FacilitiesPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-[url('/photos/facilities/bg_4.png')] bg-cover bg-center bg-fixed text-white px-8 pt-48 pb-24 relative">
+    <main className="min-h-screen bg-[url('/ESMSCCG/photos/facilities/bg_4.png')] bg-cover bg-center bg-fixed text-white px-8 pt-48 pb-24 relative">
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40" />
@@ -123,7 +123,7 @@ export default function FacilitiesPage() {
         <div className="relative z-[999]">
           <div className="overflow-hidden rounded-[35px] border border-cyan-400/20 shadow-[0_0_50px_rgba(34,211,238,0.25)]">
             <Image
-              src="/photos/facilities/aryabhatta.png"
+              src="/ESMSCCG/photos/facilities/aryabhatta.png"
               alt="Aryabhatta HPC"
               width={1200}
               height={900}
