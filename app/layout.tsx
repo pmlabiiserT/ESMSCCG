@@ -103,8 +103,7 @@ export default function RootLayout({
                 height={60}
                 className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
               />
-            </a>
-
+          
           </Link>
         </header>
 
