@@ -8,7 +8,8 @@ export default function MenuBar() {
 
   return (
     <div
-      className="relative group z-50"
+      className="relative z-50"
+      onMouseEnter={() => setMenuOpen(true)}
       onMouseLeave={() => setMenuOpen(false)}
     >
       <button
@@ -23,23 +24,71 @@ export default function MenuBar() {
         <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
       </button>
 
+      {/* Dropdown Menu */}
       <div
         className={`absolute top-0 left-0 overflow-hidden transition-all duration-500 ${
           menuOpen
             ? "w-[420px] opacity-100"
-            : "w-0 opacity-0 group-hover:w-[420px] group-hover:opacity-100"
+            : "w-0 opacity-0 pointer-events-none"
         }`}
       >
         <div className="ml-24 min-w-[300px] backdrop-blur-2xl bg-black/92 border border-cyan-400/30 rounded-[35px] p-10 shadow-[0_0_80px_rgba(34,211,238,0.4)]">
           <div className="flex flex-col gap-7 text-2xl">
-            <Link href="/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Home</Link>
-            <Link href="/about" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Team Leader</Link>
-            <Link href="/research" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Research</Link>
-            <Link href="/publications" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Publications</Link>
-            <Link href="/facilities" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Research Facilities</Link>
-            <Link href="/team" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Team</Link>
-            <Link href="/news" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">News & Gallery</Link>
-            <Link href="/contact" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Opportunities & Contact</Link>
+            <Link
+              href="/"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Home
+            </Link>
+
+            <Link
+              href="/about"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Team Leader
+            </Link>
+
+            <Link
+              href="/research"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Research
+            </Link>
+
+            <Link
+              href="/publications"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Publications
+            </Link>
+
+            <Link
+              href="/facilities"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Research Facilities
+            </Link>
+
+            <Link
+              href="/team"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Team
+            </Link>
+
+            <Link
+              href="/news"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              News & Gallery
+            </Link>
+
+            <Link
+              href="/contact"
+              className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300"
+            >
+              Opportunities & Contact
+            </Link>
           </div>
         </div>
       </div>
