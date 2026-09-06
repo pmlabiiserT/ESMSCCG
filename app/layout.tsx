@@ -80,7 +80,10 @@ export default function RootLayout({
             </div>
 
             {/* RIGHT SIDE: Global Top Logos */}
-            <a href="/ESMSCCG/" className="flex items-center gap-5 group">
+            <a
+              href="/ESMSCCG/"
+              className="flex items-center gap-5 group"
+            >
               <Image
                 src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
                 alt="Lab Logo"
@@ -88,14 +91,17 @@ export default function RootLayout({
                 height={60}
                 className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
               />
+
               <div>
                 <h1 className="text-cyan-400 text-3xl font-bold group-hover:text-white transition">
                   PMLab
                 </h1>
+
                 <p className="text-gray-300 tracking-[0.25em] text-sm">
                   IISER Tirupati
                 </p>
               </div>
+
               <Image
                 src="/ESMSCCG/photos/home_pic/iisert_logo.jpg"
                 alt="IISER Logo"
@@ -103,9 +109,8 @@ export default function RootLayout({
                 height={60}
                 className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
               />
-          
-          </a>
-        </header>
+            </a>
+          </header>
 
         {/* This renders whatever specific page you are on */}
         {children}
