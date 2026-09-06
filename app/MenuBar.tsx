@@ -5,31 +5,34 @@ import { useState } from "react";
 
 export default function MenuBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
   const [clickClosed, setClickClosed] = useState(false);
 
   return (
     <div
       className="relative z-50"
-      onPointerEnter={(e) => {
-        if (e.pointerType === "mouse" && !clickClosed) {
+      onMouseEnter={() => {
+        setIsHovering(true);
+        if (!clickClosed) {
           setMenuOpen(true);
         }
       }}
-      onPointerLeave={(e) => {
-        if (e.pointerType === "mouse") {
-          setClickClosed(false);
-          setMenuOpen(false);
-        }
+      onMouseLeave={() => {
+        setIsHovering(false);
+        setClickClosed(false);
+        setMenuOpen(false);
       }}
     >
       <button
         type="button"
         onClick={() => {
-          setMenuOpen((open) => {
-            const nextOpen = !open;
-            setClickClosed(!nextOpen);
-            return nextOpen;
-          });
+          if (menuOpen || isHovering) {
+            setMenuOpen(false);
+            setClickClosed(true);
+          } else {
+            setMenuOpen(true);
+            setClickClosed(false);
+          }
         }}
         className="w-16 h-16 rounded-2xl backdrop-blur-xl bg-black/75 border border-cyan-400/30 flex flex-col justify-center items-center gap-2 cursor-pointer shadow-[0_0_35px_rgba(34,211,238,0.25)] hover:scale-110 transition-all duration-300"
         aria-label="Open navigation menu"
