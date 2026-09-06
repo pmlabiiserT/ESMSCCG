@@ -26,13 +26,11 @@ export default function MenuBar() {
       <button
         type="button"
         onClick={() => {
-          if (menuOpen || isHovering) {
-            setMenuOpen(false);
-            setClickClosed(true);
-          } else {
-            setMenuOpen(true);
-            setClickClosed(false);
-          }
+          setMenuOpen((open) => {
+            const nextOpen = !open;
+            setClickClosed(!nextOpen);
+            return nextOpen;
+          });
         }}
         className="w-16 h-16 rounded-2xl backdrop-blur-xl bg-black/75 border border-cyan-400/30 flex flex-col justify-center items-center gap-2 cursor-pointer shadow-[0_0_35px_rgba(34,211,238,0.25)] hover:scale-110 transition-all duration-300"
         aria-label="Open navigation menu"
