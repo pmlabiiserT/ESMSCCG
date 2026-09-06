@@ -5,16 +5,35 @@ import { useState } from "react";
 
 export default function MenuBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
+  const [clickClosed, setClickClosed] = useState(false);
 
   return (
     <div
       className="relative z-50"
-      onMouseEnter={() => setMenuOpen(true)}
-      onMouseLeave={() => setMenuOpen(false)}
+      onMouseEnter={() => {
+        setIsHovering(true);
+        if (!clickClosed) {
+          setMenuOpen(true);
+        }
+      }}
+      onMouseLeave={() => {
+        setIsHovering(false);
+        setClickClosed(false);
+        setMenuOpen(false);
+      }}
     >
       <button
         type="button"
-        onClick={() => setMenuOpen((open) => !open)}
+        onClick={() => {
+          if (menuOpen || isHovering) {
+            setMenuOpen(false);
+            setClickClosed(true);
+          } else {
+            setMenuOpen(true);
+            setClickClosed(false);
+          }
+        }}
         className="w-16 h-16 rounded-2xl backdrop-blur-xl bg-black/75 border border-cyan-400/30 flex flex-col justify-center items-center gap-2 cursor-pointer shadow-[0_0_35px_rgba(34,211,238,0.25)] hover:scale-110 transition-all duration-300"
         aria-label="Open navigation menu"
         aria-expanded={menuOpen}
@@ -27,7 +46,7 @@ export default function MenuBar() {
       {/* Dropdown Menu */}
       <div
         className={`absolute top-0 left-0 overflow-hidden transition-all duration-500 ${
-          menuOpen
+          menuOpen && !clickClosed
             ? "w-[420px] opacity-100"
             : "w-0 opacity-0 pointer-events-none"
         }`}
