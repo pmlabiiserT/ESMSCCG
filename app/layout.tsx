@@ -80,7 +80,7 @@ export default function RootLayout({
             </div>
 
             {/* RIGHT SIDE: Global Top Logos */}
-            <Link href="/" className="flex items-center gap-5 group">
+            <a href="/ESMSCCG/" className="flex items-center gap-5 group">
               <Image
                 src="/ESMSCCG/photos/home_pic/logo_round_wo_B.png"
                 alt="Lab Logo"
@@ -104,7 +104,7 @@ export default function RootLayout({
                 className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
               />
           
-          </Link>
+          </a>
         </header>
 
         {/* This renders whatever specific page you are on */}
