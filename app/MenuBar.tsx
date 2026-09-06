@@ -5,22 +5,21 @@ import { useState } from "react";
 
 export default function MenuBar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isHovering, setIsHovering] = useState(false);
   const [clickClosed, setClickClosed] = useState(false);
 
   return (
     <div
       className="relative z-50"
-      onMouseEnter={() => {
-        setIsHovering(true);
-        if (!clickClosed) {
+      onPointerEnter={(e) => {
+        if (e.pointerType === "mouse" && !clickClosed) {
           setMenuOpen(true);
         }
       }}
-      onMouseLeave={() => {
-        setIsHovering(false);
-        setClickClosed(false);
-        setMenuOpen(false);
+      onPointerLeave={(e) => {
+        if (e.pointerType === "mouse") {
+          setClickClosed(false);
+          setMenuOpen(false);
+        }
       }}
     >
       <button
