@@ -110,7 +110,10 @@ export default function RootLayout({
                 className="drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"
               />
             </a>
-          </header>
+          </div>
+        </header>
+
+        {/* This renders whatever specific page you are on */}
 
         {/* This renders whatever specific page you are on */}
         {children}
