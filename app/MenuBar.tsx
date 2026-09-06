@@ -9,8 +9,16 @@ export default function MenuBar() {
   return (
     <div
       className="relative z-50"
-      onMouseEnter={() => setMenuOpen(true)}
-      onMouseLeave={() => setMenuOpen(false)}
+      onPointerEnter={(e) => {
+        if (e.pointerType === "mouse") {
+          setMenuOpen(true);
+        }
+      }}
+      onPointerLeave={(e) => {
+        if (e.pointerType === "mouse") {
+          setMenuOpen(false);
+        }
+      }}
     >
       <button
         type="button"
