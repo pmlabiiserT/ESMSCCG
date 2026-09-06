@@ -1067,7 +1067,7 @@ export default function TeamPage() {
 {/* Alumni 5 */}
           <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
             <Image 
-              src="/ESMSCCG/photos/team/alumni/f_prachi.jpg" 
+              src="/ESMSCCG/photos/team/alumni/f_prachi_1.jpeg" 
               alt="alumni" 
               width={240} 
               height={240}
