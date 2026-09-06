@@ -1,7 +1,9 @@
+"use client";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,6 +26,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <html
       lang="en"
@@ -42,16 +45,31 @@ export default function RootLayout({
             {/* LEFT SIDE: Menu + Group Name */}
             <div className="flex items-start gap-8">
               
-              {/* HOVER MENU */}
-              <div className="relative group z-50">
-                <div className="w-16 h-16 rounded-2xl backdrop-blur-xl bg-black/75 border border-cyan-400/30 flex flex-col justify-center items-center gap-2 cursor-pointer shadow-[0_0_35px_rgba(34,211,238,0.25)] hover:scale-110 transition-all duration-300">
+              {/* MENU */}
+              <div
+                className="relative group z-50"
+                onMouseLeave={() => setMenuOpen(false)}
+              >
+                <button
+                  type="button"
+                  onClick={() => setMenuOpen((open) => !open)}
+                  className="w-16 h-16 rounded-2xl backdrop-blur-xl bg-black/75 border border-cyan-400/30 flex flex-col justify-center items-center gap-2 cursor-pointer shadow-[0_0_35px_rgba(34,211,238,0.25)] hover:scale-110 transition-all duration-300"
+                  aria-label="Open navigation menu"
+                  aria-expanded={menuOpen}
+                >
                   <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
                   <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
                   <div className="w-8 h-[3px] bg-cyan-300 rounded-full" />
-                </div>
-                
+                </button>
+              
                 {/* Dropdown Menu */}
-                <div className="absolute top-0 left-0 w-0 opacity-0 overflow-hidden group-hover:w-[420px] group-hover:opacity-100 transition-all duration-500">
+                <div
+                  className={`absolute top-0 left-0 overflow-hidden transition-all duration-500 ${
+                    menuOpen
+                      ? "w-[420px] opacity-100"
+                      : "w-0 opacity-0 group-hover:w-[420px] group-hover:opacity-100"
+                  }`}
+                >
                   <div className="ml-24 min-w-[300px] backdrop-blur-2xl bg-black/92 border border-cyan-400/30 rounded-[35px] p-10 shadow-[0_0_80px_rgba(34,211,238,0.4)]">
                     <div className="flex flex-col gap-7 text-2xl">
                       <Link href="/" className="text-cyan-300 hover:text-white hover:translate-x-3 transition-all duration-300">Home</Link>
