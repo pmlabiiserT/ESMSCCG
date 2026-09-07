@@ -157,13 +157,28 @@ export default function AboutPage() {
                 Postdoctoral Fellow, Goethe University Frankfurt, Germany.
               </p>
 
+              
               <p>
                 <span className="text-white font-semibold">
                   12/2008 - 12/2012:
                 </span>{" "}
                 PhD (Theoretical Chemistry), Technical University of Munich, Germany.
               </p>
+              
+              <div className="ml-6 pl-5 border-l border-cyan-400/30 text-lg md:text-xl text-gray-400">
+                <p className="italic text-cyan-200/90">
+                  Thesis: “Jahn-Teller and spin-orbit coupling effects in transition metal trifluorides”
+                </p>
+                <p className="mt-2">
+                  Supervisor: <span className="text-gray-300">Prof. Dr. Wolfgang Domcke</span>,
+                  Technical University of Munich, Germany.
+                </p>
+                <p className="mt-1">
+                  Year of award: <span className="text-gray-300">2012</span>
+                </p>
+              </div>
 
+              
               <p>
                 <span className="text-white font-semibold">
                   2006 - 2008:
@@ -184,6 +199,75 @@ export default function AboutPage() {
 
         </section>
 
+
+
+
+        {/* Research Grants and Projects */}
+        <section className="mb-20">
+
+          <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-3xl p-10">
+
+            <h2 className="text-4xl font-bold text-cyan-400 mb-10">
+              Research Grants and Projects
+            </h2>
+
+            <div className="space-y-8 text-gray-200 text-xl md:text-1xl leading-relaxed">
+
+              <div>
+                <p className="text-white font-semibold">
+                  Light-induced spin-crossover in organometallic complexes: From first principles theory to application
+                </p>
+                <p className="text-gray-400 mt-1">
+                  SERB | 2020–2022
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  Towards development of fluorophores of predictable fluorescence: A comprehensive investigation of fluorescence characteristics of fluorescein
+                </p>
+                <p className="text-gray-400 mt-1">
+                  SERB | 2022–2025
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  Investigating the potential of inositol phosphate kinase, ITPK1 in augmenting plant heat stress acclimation
+                </p>
+                <p className="text-gray-400 mt-1">
+                  STARS | 2023–2026
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  A Multiscale Study of Photoswitchable Drugs for Optimal Control of G-protein Coupled Receptor
+                </p>
+                <p className="text-gray-400 mt-1">
+                  SERB/ANRF | 2024–2027
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  Unravelling the mechanistic details of tryptophan hydroxylation using a multiscale computational approach
+                </p>
+                <p className="text-gray-400 mt-1">
+                  CSIR | 2025–2027
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+
+        
         {/* Teaching Experiences */}
         <section className="mb-20">
 
@@ -248,6 +332,9 @@ export default function AboutPage() {
 
         </section>
 
+
+
+        
         {/* Professional Service */}
         <section className="mb-20">
 
@@ -259,15 +346,21 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-xl md:text-1xl leading-relaxed text-gray-200">
 
-              <div>Invited article review, Chem. Phys.</div>
+              <div>Chemical Physics</div>
 
-              <div>Invited article review, J. Mater. Chem. A</div>
+              <div>Journal of Materials Chemistry A</div>
 
-              <div>Invited article review, RSC. Advances</div>
+              <div>RSC Advances</div>
 
-              <div>Invited article review, Frontiers</div>
+              <div>Journal of Physical Chemistry</div>
 
-              <div>Invited article review, Journal of Physical Chemistry</div>
+              <div>Frontiers</div>
+
+              <div>Physical Chemistry Chemical Physics</div>
+
+              <div>Chemical Physics Letters</div>
+
+              <div>Journal of Photochemistry and Photobiology A</div>
 
             </div>
 
@@ -275,6 +368,62 @@ export default function AboutPage() {
 
         </section>
 
+
+
+
+        {/* Scientific Memberships */}
+        <section className="mb-20">
+
+          <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-3xl p-10">
+
+            <h2 className="text-4xl font-bold text-cyan-400 mb-10">
+              Scientific Memberships
+            </h2>
+
+            <div className="space-y-6 text-xl md:text-1xl leading-relaxed text-gray-200">
+
+              <div>
+                <p className="text-white font-semibold">
+                  Chemical Research Society of India (CRSI)
+                </p>
+                <p className="text-gray-400">
+                  2024–Lifetime
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  Swiss Chemical Society
+                </p>
+                <p className="text-gray-400">
+                  2023–2025
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  European Photochemical Society
+                </p>
+                <p className="text-gray-400">
+                  2023–2025
+                </p>
+              </div>
+
+              <div>
+                <p className="text-white font-semibold">
+                  Center for Atomic, Molecular and Optical Sciences and Technologies (CAMOST)
+                </p>
+                <p className="text-gray-400">
+                  CAMOST (IISER Tirupati and IIT Tirupati) | 2020–2025
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+        
       </div>
 
 
