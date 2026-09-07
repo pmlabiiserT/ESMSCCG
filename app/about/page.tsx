@@ -341,9 +341,13 @@ export default function AboutPage() {
           <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-3xl p-10">
 
             <h2 className="text-4xl font-bold text-cyan-400 mb-10">
-              Professional Service
+              Professional Service & Peer Review
             </h2>
 
+            <p className="text-gray-400 text-lg mb-8">
+              Peer reviewer for scientific journals
+            </p>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-xl md:text-1xl leading-relaxed text-gray-200">
 
               <div>Chemical Physics</div>
