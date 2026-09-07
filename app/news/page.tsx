@@ -669,7 +669,7 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
 
     <button
       onClick={() => setSelectedImage(null)}
-      className="fixed top-4 right-4 z-[99999] flex h-12 w-12 items-center justify-center rounded-full bg-black/75 text-4xl font-light leading-none text-white shadow-[0_0_20px_rgba(0,0,0,0.8)] backdrop-blur-sm hover:bg-cyan-400 hover:text-black transition-all duration-300"
+      className="fixed top-4 right-4 z-[99999] flex h-20 w-20 items-center justify-center rounded-full bg-black/80 text-7xl font-black leading-none text-white border-2 border-white shadow-[0_0_30px_rgba(255,255,255,0.45)] backdrop-blur-sm hover:bg-cyan-400 hover:text-black transition-all duration-300"
     >
       ×
     </button>
