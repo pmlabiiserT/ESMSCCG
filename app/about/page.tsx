@@ -37,7 +37,7 @@ export default function AboutPage() {
               Principal Investigator
             </p>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+            <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight whitespace-nowrap tracking-tight">
 
               Dr. Padmabati Mondal
 
