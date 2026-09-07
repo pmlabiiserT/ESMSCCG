@@ -661,6 +661,7 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
 {selectedImage && (
 
   <div
+    onClick={() => setSelectedImage(null)}
     className="fixed inset-0 z-[999] bg-black/92 backdrop-blur-md flex items-center justify-center p-10"
   >
 
@@ -668,7 +669,7 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
 
     <button
       onClick={() => setSelectedImage(null)}
-      className="absolute top-8 right-10 text-white text-6xl hover:text-cyan-400 transition duration-300 z-30"
+      className="fixed top-4 right-4 z-[99999] flex h-12 w-12 items-center justify-center rounded-full bg-black/75 text-4xl font-light leading-none text-white shadow-[0_0_20px_rgba(0,0,0,0.8)] backdrop-blur-sm hover:bg-cyan-400 hover:text-black transition-all duration-300"
     >
       ×
     </button>
@@ -678,7 +679,8 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
     {allImages.length > 1 && (
 
       <button
-        onClick={() => {
+        onClick={(e) => {
+          e.stopPropagation();
 
           const currentIndex = allImages.indexOf(selectedImage);
 
@@ -703,7 +705,8 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
     {allImages.length > 1 && (
 
       <button
-        onClick={() => {
+        onClick={(e) => {
+          e.stopPropagation();
 
           const currentIndex = allImages.indexOf(selectedImage);
 
@@ -724,30 +727,33 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
     {/* FULLSCREEN IMAGE */}
 
     
+    <div onClick={(e) => e.stopPropagation()}>
 
-    <TransformWrapper
-      initialScale={0.9}
-      minScale={1}
-      maxScale={5}
-      wheel={{ step: 0.15 }}
-      doubleClick={{ mode: "toggle" }}
-      pinch={{ step: 5 }}
-      panning={{ velocityDisabled: true }}
-    >
-    
-      <TransformComponent>
-    
-        <Image
-          src={selectedImage}
-          alt="fullscreen"
-          width={1600}
-          height={1200}
-          className="max-w-[92vw] max-h-[92vh] object-contain rounded-2xl shadow-[0_0_60px_rgba(34,211,238,0.35)]"
-        />
-    
-      </TransformComponent>
-    
-    </TransformWrapper>
+      <TransformWrapper
+        initialScale={0.9}
+        minScale={1}
+        maxScale={5}
+        wheel={{ step: 0.15 }}
+        doubleClick={{ mode: "toggle" }}
+        pinch={{ step: 5 }}
+        panning={{ velocityDisabled: true }}
+      >
+      
+        <TransformComponent>
+      
+          <Image
+            src={selectedImage}
+            alt="fullscreen"
+            width={1600}
+            height={1200}
+            className="max-w-[92vw] max-h-[92vh] object-contain rounded-2xl shadow-[0_0_60px_rgba(34,211,238,0.35)]"
+          />
+      
+        </TransformComponent>
+      
+      </TransformWrapper>
+
+    </div>
 
   </div>
 
