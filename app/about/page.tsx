@@ -341,7 +341,7 @@ export default function AboutPage() {
           <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-3xl p-10">
 
             <h2 className="text-4xl font-bold text-cyan-400 mb-10">
-              Professional Service & Peer Review
+              Professional Services & Peer Reviews
             </h2>
 
             <p className="text-gray-400 text-lg mb-8">
