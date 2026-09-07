@@ -159,6 +159,39 @@ const [allImages, setAllImages] = useState<string[]>([]);
 
 
     {
+      caption: "Teachers' Day (2026) × Movie Night × Pizza Party",
+      images: [
+        "/ESMSCCG/photos/news/teachers_day_2026_1.jpeg",
+        "/ESMSCCG/photos/news/teachers_day_2026_2.jpeg",
+        "/ESMSCCG/photos/news/teachers_day_2026_3.jpeg",
+      ],
+    },
+
+
+    {
+      caption: "Convocation of Dr. Ray, Atheena and Hitesh (10.07.2026)",
+      images: [
+        "/ESMSCCG/photos/news/convocation_2026/soumyadip_1.jpg",
+        "/ESMSCCG/photos/news/convocation_2026/atheena.jpg",
+        "/ESMSCCG/photos/news/convocation_2026/hitesh.jpg",
+        "/ESMSCCG/photos/news/convocation_2026/hitesh_atheena.jpg",
+         "/ESMSCCG/photos/news/convocation_2026/soumyadip_3.jpg",
+        "/ESMSCCG/photos/news/convocation_2026/group.jpg",
+        "/ESMSCCG/photos/news/convocation_2026/soumyadip_2.jpg",
+      ],
+    },
+    
+
+    {
+      caption: "Lab Dinner @Convenio Cafe (27.06.2026)",
+      images: [
+        "/ESMSCCG/photos/news/lab_dinner/2.jpg",
+        "/ESMSCCG/photos/news/lab_dinner/1.jpg",
+      ],
+    },
+    
+    
+    {
       caption: "MS Thesis Defense of Hitesh (07/05/2026)",
       images: [
         "/ESMSCCG/photos/news/hitesh_1.jpeg",
