@@ -341,7 +341,7 @@ export default function TeamPage() {
           <div className="flex justify-center">
 
             <Image
-              src="/ESMSCCG/photos/team/soumyadip.jpg"
+              src="/ESMSCCG/photos/team/soumyadip_3.jpg"
               alt="member"
               width={420}
               height={420}
