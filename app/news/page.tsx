@@ -361,6 +361,7 @@ const [allImages, setAllImages] = useState<string[]>([]);
 const AutoScrollGallery = ({ images }: { images: string[] }) => {
 
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [portraitImages, setPortraitImages] = useState<Set<string>>(new Set()); 
 
   useEffect(() => {
 
@@ -467,12 +468,24 @@ const AutoScrollGallery = ({ images }: { images: string[] }) => {
           alt="gallery"
           width={600}
           height={450}
+          onLoad={(e) => {
+            const image = e.currentTarget;
+            if (image.naturalHeight > image.naturalWidth) {
+              setPortraitImages((prev) => {
+                const next = new Set(prev);
+                next.add(img);
+                return next;
+              });
+            }
+          }}
           onClick={() => {
             setSelectedImage(img);
             setAllImages(images);
           }}
-          className="w-full h-[320px] object-cover cursor-pointer"
-        />
+          className={`w-full h-[320px] ${
+            portraitImages.has(img) ? "object-contain bg-black" : "object-cover"
+          } cursor-pointer`}
+         />          
 
       </div>
 
