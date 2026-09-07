@@ -161,9 +161,18 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "Teachers' Day (2026) × Movie Night × Pizza Party",
       images: [
-        "/ESMSCCG/photos/news/teachers_day_2026_1.jpeg",
-        "/ESMSCCG/photos/news/teachers_day_2026_2.jpeg",
-        "/ESMSCCG/photos/news/teachers_day_2026_3.jpeg",
+        "/ESMSCCG/photos/news/teachers_day_2026/sir_madam_4.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/cake.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/sir_madam_1.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/group_1.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/sir_madam_2.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/sir_madam_3.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/pizza_1.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/group_2.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/movie.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/pizza_2.jpg",
+        "/ESMSCCG/photos/news/teachers_day_2026/pizza_3.jpg",
+  
       ],
     },
 
