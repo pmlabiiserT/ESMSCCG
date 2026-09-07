@@ -67,7 +67,7 @@ export default function ResearchPage() {
       {/* Research Topic 1 */}
       {/* ========================= */}
 
-      <section className="max-w-7xl mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
+      <section className="max-w-7xl mx-auto lg:min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
 
         {/* Left Image */}
         <div className="relative">
@@ -213,7 +213,7 @@ export default function ResearchPage() {
       {/* Research Topic 2 */}
       {/* ========================= */}
 
-      <section className="max-w-7xl mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
+      <section className="max-w-7xl mx-auto lg:min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
 
         {/* Left Text */}
         <div>
@@ -383,7 +383,7 @@ export default function ResearchPage() {
       {/* Research Topic 3 */}
       {/* ========================= */}
 
-      <section className="max-w-7xl mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
+      <section className="max-w-7xl mx-auto lg:min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
 
         {/* Left Image */}
         <div className="relative">
@@ -424,7 +424,7 @@ export default function ResearchPage() {
       {/* Research Topic 4 */}
       {/* ========================= */}
 
-      <section className="max-w-7xl mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+      <section className="max-w-7xl mx-auto lg:min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
         {/* Left Text */}
         <div>
