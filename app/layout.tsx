@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PMLab | IISER Tirupati",
   description: "Excited State & Multi Scale Computational Chemistry Group",
+};
+
+export const viewport: Viewport = {
+  width: 1200,
 };
 
 export default function RootLayout({
