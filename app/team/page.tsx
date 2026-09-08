@@ -259,7 +259,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/ESMSCCG/photos/team/tba.png"
+                src="/ESMSCCG/photos/team/f_hari.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -268,7 +268,7 @@ export default function TeamPage() {
 
               <p className="text-cyan-300 font-bold mt-1">Sem Proj</p>
 
-              <p className="text-white text-xs leading-none mt-1">TBA</p>
+              <p className="text-white text-xs leading-none mt-1">Harikrishnan</p>
 
             </a>
 
@@ -844,7 +844,7 @@ export default function TeamPage() {
         </div>
 
       </div>
-{/* ================================================= */}
+	  {/* ================================================= */}
       {/* Semester Project */}
       {/* ================================================= */}
 
@@ -852,79 +852,82 @@ export default function TeamPage() {
         Semester Project Student
       </h2>
 
-      <div
-        id="semester1"
-        className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-10"
-      >
-
-        <div className="flex justify-center">
-
-          <Image
-            src="/ESMSCCG/photos/team/hari.jpeg"
-            alt="member"
-            width={420}
-            height={420}
-            className="rounded-[35px] border border-cyan-400/20 shadow-[0_0_45px_rgba(34,211,238,0.25)] object-cover"
-          />
-
-        </div>
-
-        <div>
-
-          <h3 className="text-5xl font-bold mb-8">
-            Harikrishnan S
-          </h3>
-
-          <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Member Since:
-              </span>{" "}
-              Aug, 2026
-            </p>
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Research Topic:
-              </span>{" "}
-               Assessing H bonding and Non covalent interactions
-            </p>
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                About me:
-              </span>{" "}
-               Pretty much Doomscrolling; Enjoys music, RPG games and sitcoms
-            </p>
-
-
-
-            <p>
-              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
-                Contact:
-              </span>{" "}
-
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=harikrishnan_20231074@students.iisertirupati.ac.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-300 hover:text-white hover:underline transition duration-300">
-                harikrishnan_20231074@students.iisertirupati.ac.in
-              </a>
-
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
+		<div
+		  id="semester1"
+		  className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-10"
+		>
+		
+		  {/* Text */}
+		
+		  <div>
+		
+		    <h3 className="text-5xl font-bold mb-8">
+		      Harikrishnan S
+		    </h3>
+		
+		    <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
+		
+		      <p>
+		        <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+		          Member Since:
+		        </span>{" "}
+		        Aug, 2026
+		      </p>
+		
+		      <p>
+		        <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+		          Research Topic:
+		        </span>{" "}
+		        Assessing Hydrogen bonding and Non-covalent interactions
+		      </p>
+		
+		      <p>
+		        <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+		          About me:
+		        </span>{" "}
+		        Pretty much Doomscrolling; Enjoys music, RPG games and sitcoms
+		      </p>
+		
+		      <p>
+		        <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+		          Contact:
+		        </span>{" "}
+		
+		        <a
+		          href="https://mail.google.com/mail/?view=cm&fs=1&to=harikrishnan_20231074@students.iisertirupati.ac.in"
+		          target="_blank"
+		          rel="noopener noreferrer"
+		          className="text-blue-300 hover:text-white hover:underline transition duration-300"
+		        >
+		          harikrishnan_20231074@students.iisertirupati.ac.in
+		        </a>
+		
+		      </p>
+		
+		    </div>
+		
+		  </div>
+		
+		  {/* Photo */}
+		
+		  <div className="flex justify-center">
+		
+		    <Image
+		      src="/ESMSCCG/photos/team/hari.jpeg"
+		      alt="member"
+		      width={420}
+		      height={420}
+		      className="rounded-[35px] border border-cyan-400/20 shadow-[0_0_45px_rgba(34,211,238,0.25)] object-cover"
+		    />
+		
+		  </div>
+		
+		</div>
 
     </section>
 
 
-{/* ================================================= */}
+      {/* ================================================= */}
       {/* Alumni */}
       {/* ================================================= */}
 
