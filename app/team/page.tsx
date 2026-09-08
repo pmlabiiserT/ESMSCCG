@@ -860,7 +860,7 @@ export default function TeamPage() {
         <div className="flex justify-center">
 
           <Image
-            src="/ESMSCCG/photos/team/tba.png"
+            src="/ESMSCCG/photos/team/hari.jpeg"
             alt="member"
             width={420}
             height={420}
@@ -872,7 +872,7 @@ export default function TeamPage() {
         <div>
 
           <h3 className="text-5xl font-bold mb-8">
-            TBA
+            Harikrishnan S
           </h3>
 
           <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
@@ -888,14 +888,14 @@ export default function TeamPage() {
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              XXXXXXXXXXXXX
+               Assessing H bonding and Non covalent interactions
             </p>
 
             <p>
               <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 About me:
               </span>{" "}
-              XXXXXXXXXXXXXXX
+               Pretty much Doomscrolling; Enjoys music, RPG games and sitcoms
             </p>
 
 
@@ -906,11 +906,11 @@ export default function TeamPage() {
               </span>{" "}
 
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=soumyadpray@students.iisertirupati.ac.in"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=harikrishnan_20231074@students.iisertirupati.ac.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-300 hover:text-white hover:underline transition duration-300">
-                XXXXXXXXXXX
+                harikrishnan_20231074@students.iisertirupati.ac.in
               </a>
 
             </p>
