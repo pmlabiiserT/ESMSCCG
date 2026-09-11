@@ -293,45 +293,6 @@ export default function AboutPage() {
 
         </section>
 
-        {/* Awards */}
-        <section className="mb-20">
-
-          <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-3xl p-10">
-
-            <h2 className="text-4xl font-bold text-cyan-400 mb-10">
-              Awards and Fellowships
-            </h2>
-
-            <div className="space-y-6 text-gray-200 text-xl md:text-1xl leading-relaxed">
-
-              <p>2019: Seal of Excellence award by European Commission</p>
-
-              <p>
-                2017: Wiley JCC/IJQC award for best poster in Asia Pacific Conference on Theoretical and Computational Chemistry 2017, IIT Bombay
-              </p>
-
-              <p>
-                2008: Qualified in National Eligibility Test (CSIR) for Junior Research Fellowship + Lecturership.
-              </p>
-
-              <p>
-                2007: Received Rajiv Gandhi Science Talent Research Scholarship
-              </p>
-
-              <p>
-                2007: Received Jawaharlal Nehru Summer Research Fellowship
-              </p>
-
-              <p>
-                2004: Was awarded a certificate of appreciation for an outstanding performance in Pre-Degree (10+2 level) examination by MHRD, Gov. of India
-              </p>
-
-            </div>
-
-          </div>
-
-        </section>
-
 
 
         
