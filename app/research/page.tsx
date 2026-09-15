@@ -32,7 +32,7 @@ export default function ResearchPage() {
 
         <p className="text-gray-300 text-2xl md:text-3xl leading-relaxed">
 
-         We investigate molecular phenomena across multiple length and time scales using integrated computational approaches spanning excited-state quantum chemistry, computational photochemistry, classical molecular dynamics, hybrid QM/MM methodologies, and ab-initio force field development. Our research focuses on vibronic and excited-state dynamics, biomolecular interactions, photochemical processes in complex protein environments, and quantum mechanically derived models for spectroscopy and non-covalent interactions in chemical and biological systems.
+          We investigate molecular phenomena across multiple length and time scales using integrated computational approaches spanning excited-state quantum chemistry, computational photochemistry, classical molecular dynamics, hybrid QM/MM methodologies, and ab-initio force field development. Our research focuses on understanding excited-state nonadiabatic  dynamics, biomolecular interactions and stability, photochemical processes in complex protein environments, and development of  nonconventional force fields for spectroscopy and biomolecular interactions.
         </p>
 
       </section>
@@ -97,8 +97,8 @@ export default function ResearchPage() {
 
           <p className="text-gray-300 text-2xl leading-relaxed">
 
-            We investigate light-induced molecular processes using excited-state quantum chemistry and computational photochemistry, focusing on vibronic coupling, nonadiabatic dynamics, and spin–orbit interactions in organic chromophores and transition metal complexes through TDDFT, MCTDH, and surface hopping simulations.
-
+           We investigate photo-induced molecular processes using excited-state quantum chemistry and computational photochemistry, particularly focusing on vibronic coupling, nonadiabatic dynamics, and spin–orbit interactions in organic chromophores and transition metal complexes.
+            
           </p>
 
 
@@ -228,8 +228,8 @@ export default function ResearchPage() {
 
           <p className="text-gray-300 text-2xl leading-relaxed">
 
-            We employ classical molecular dynamics simulations to investigate the structural dynamics of biomolecular systems, with particular emphasis on protein–ligand and protein–DNA interactions, membrane environments, and allosteric regulation. Through atomistic simulations and free energy analyses, we explore conformational dynamics, molecular recognition, and interaction mechanisms governing biomolecular function
-
+          We employ atomistic classical molecular dynamics simulations and free energy anslysis to investigate the conformational dynamics, molecular recognition, biomolecular interactions and stability, allosteric regulations of biomolecular systems, with particular emphasis on protein–ligand and protein–DNA interactions in solvent and membrane environments.
+         
           </p>
 
 
@@ -413,7 +413,7 @@ export default function ResearchPage() {
 
           <p className="text-gray-300 text-2xl leading-relaxed">
 
-            We apply hybrid QM/MM approaches to probe excited-state reactivity and photochemical processes in protein environments by combining quantum mechanical treatment of reactive chromophore regions with atomistic molecular mechanics descriptions of the surrounding biomolecular system. Our work focuses on environment-dependent electronic structure, charge transfer, and photodynamics in complex biological systems.
+           We apply hybrid quantum mechanical/ molecular mechanical approaches to probe ground and excited-state reactivity and photochemical processes in protein environments by combining quantum mechanical treatment of reactive chromophore regions with atomistic molecular mechanics descriptions of the surrounding biomolecular system. Our work mainly focuses on environment-dependent electronic structure, charge transfer, and photodynamics in complex biological systems.
           </p>
 
         </div>
@@ -439,8 +439,7 @@ export default function ResearchPage() {
 
           <p className="text-gray-300 text-2xl leading-relaxed">
 
-            We develop ab-initio and non-conventional force fields for spectroscopy and non-covalent interactions through quantum mechanically derived parameterization of bonded and electrostatic interactions, potential energy surface fitting, and transferable charge models for complex molecular systems.
-
+            We develop ab-initio based non-conventional force fields to model spectroscopic probe and biomolecular interactions. Especially we focus on parameterization of bonded and nonbonded interactions between spectroscopic probe and solvent/protein environment as well as active site of metalloprotein. The procedure follows four steps of (i) parameterization via quantum chemical calculations (ii) implementation and integration into the targeted systems (iii) validation of the accuracy of force field parameters and (iv) checking transferability of the force fields for various systems.
           </p>
 
         </div>
