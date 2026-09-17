@@ -449,19 +449,19 @@ export default function ResearchPage() {
           
             <br /><br />
           
-            (i) parameterization via quantum chemical calculations
+            (i) Parameterization via quantum chemical calculations
           
             <br />
           
-            (ii) implementation and integration into the targeted systems
+            (ii) Implementation and integration into the targeted systems
           
             <br />
           
-            (iii) validation of the accuracy of force field parameters
+            (iii) Validation of the accuracy of force field parameters
           
             <br />
           
-            (iv) checking transferability of the force fields for various systems.
+            (iv) Checking transferability of the force fields for various systems.
           
           </p>
 
@@ -490,7 +490,7 @@ export default function ResearchPage() {
 {/* FOOTER */}
 {/* ================================================= */}
 
-<div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 items-end mt-0 pb-0">
+<div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 items-end mt-25 pb-0">
 
   {/* LEFT — VISITOR MAP */}
 
