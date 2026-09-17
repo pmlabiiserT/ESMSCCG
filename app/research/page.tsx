@@ -21,7 +21,7 @@ export default function ResearchPage() {
           Research Interests
         </h1>
     
-        <p className="text-gray-300 text-2xl md:text-3xl leading-relaxed">
+        <p className="text-gray-300 text-2xl leading-relaxed">
           We investigate molecular phenomena across multiple length and time scales using integrated computational approaches spanning excited-state quantum chemistry, computational photochemistry, classical molecular dynamics, hybrid QM/MM methodologies, and ab-initio force field development. Our research focuses on understanding excited-state nonadiabatic dynamics, biomolecular interactions and stability, photochemical processes in complex protein environments, and development of nonconventional force fields for spectroscopy and biomolecular interactions.
         </p>
     
