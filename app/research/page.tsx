@@ -444,8 +444,25 @@ export default function ResearchPage() {
           </h2>
 
           <p className="text-gray-300 text-2xl leading-relaxed">
-
-            We develop ab-initio based non-conventional force fields to model spectroscopic probe and biomolecular interactions. Especially we focus on parameterization of bonded and nonbonded interactions between spectroscopic probe and solvent/protein environment as well as active site of metalloprotein. The procedure follows four steps of (i) parameterization via quantum chemical calculations (ii) implementation and integration into the targeted systems (iii) validation of the accuracy of force field parameters and (iv) checking transferability of the force fields for various systems.
+          
+            We develop ab-initio based non-conventional force fields to model spectroscopic probe and biomolecular interactions. Especially we focus on parameterization of bonded and nonbonded interactions between spectroscopic probe and solvent/protein environment as well as active site of metalloprotein. The procedure follows four steps:
+          
+            <br /><br />
+          
+            (i) parameterization via quantum chemical calculations
+          
+            <br />
+          
+            (ii) implementation and integration into the targeted systems
+          
+            <br />
+          
+            (iii) validation of the accuracy of force field parameters
+          
+            <br />
+          
+            (iv) checking transferability of the force fields for various systems.
+          
           </p>
 
         </div>
