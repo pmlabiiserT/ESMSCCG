@@ -5,37 +5,45 @@ export default function ResearchPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#030712] via-[#07111f] to-[#030712] text-white px-6 pt-28 pb-24">
 
-    <div className="relative z-20 max-w-7xl mx-auto px-14 py-6 flex justify-between items-center mb-20">
-
-  {/* Title */}
-
-  <div>
-
-    <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-
-      Research Interests
-
-    </h1>
-
-  </div>
-
-</div>
-
-
-
-
-      {/* Intro Text */}
-
-      <section 
+    {/* ========================= */}
+    {/* Research Introduction */}
+    {/* ========================= */}
+    
+    <section
       id="research-start"
-      className="scroll-mt-0.2 max-w-6xl mx-auto -mt-10 mb-40">
-
+      className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32"
+    >
+    
+      {/* Left — Title & Text */}
+      <div>
+    
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-10">
+          Research Interests
+        </h1>
+    
         <p className="text-gray-300 text-2xl md:text-3xl leading-relaxed">
-
-          We investigate molecular phenomena across multiple length and time scales using integrated computational approaches spanning excited-state quantum chemistry, computational photochemistry, classical molecular dynamics, hybrid QM/MM methodologies, and ab-initio force field development. Our research focuses on understanding excited-state nonadiabatic  dynamics, biomolecular interactions and stability, photochemical processes in complex protein environments, and development of  nonconventional force fields for spectroscopy and biomolecular interactions.
+          We investigate molecular phenomena across multiple length and time scales using integrated computational approaches spanning excited-state quantum chemistry, computational photochemistry, classical molecular dynamics, hybrid QM/MM methodologies, and ab-initio force field development. Our research focuses on understanding excited-state nonadiabatic dynamics, biomolecular interactions and stability, photochemical processes in complex protein environments, and development of nonconventional force fields for spectroscopy and biomolecular interactions.
         </p>
-
-      </section>
+    
+      </div>
+    
+    
+      {/* Right — Research Image */}
+      <div className="relative flex justify-center">
+    
+        <div className="absolute inset-0 bg-cyan-400/20 blur-[45px] rounded-3xl"></div>
+    
+        <Image
+          src="/ESMSCCG/photos/research/YOUR_IMAGE.png"
+          alt="Research Interests"
+          width={700}
+          height={700}
+          className="relative rounded-3xl object-cover shadow-[0_0_30px_rgba(34,211,238,0.25)]"
+        />
+    
+      </div>
+    
+    </section>
 
 
 
