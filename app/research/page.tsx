@@ -11,7 +11,7 @@ export default function ResearchPage() {
     
     <section
       id="research-start"
-      className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center mb-20"
+      className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.25fr_0.75fr] gap-12 items-center mb-20"
     >
     
       {/* Left — Title & Text */}
@@ -31,14 +31,12 @@ export default function ResearchPage() {
       {/* Right — Research Image */}
       <div className="relative flex justify-center">
     
-        <div className="absolute inset-0 bg-cyan-400/20 blur-[45px] rounded-3xl"></div>
-    
         <Image
           src="/ESMSCCG/photos/research/top_3.png"
           alt="Research Interests"
-          width={600}
-          height={500}
-          className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center mb-20"
+          width={520}
+          height={430}
+          className="relative w-full max-w-[520px] h-auto rounded-3xl object-contain shadow-[0_0_20px_rgba(255,255,255,0.12)]"
         />
     
       </div>
