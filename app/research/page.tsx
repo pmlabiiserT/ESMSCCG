@@ -34,7 +34,7 @@ export default function ResearchPage() {
         <div className="absolute inset-0 bg-cyan-400/20 blur-[45px] rounded-3xl"></div>
     
         <Image
-          src="/ESMSCCG/photos/research/YOUR_IMAGE.png"
+          src="/ESMSCCG/photos/research/top_2.png"
           alt="Research Interests"
           width={700}
           height={700}
