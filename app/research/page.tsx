@@ -36,8 +36,8 @@ export default function ResearchPage() {
         <Image
           src="/ESMSCCG/photos/research/top_3.png"
           alt="Research Interests"
-          width={700}
-          height={700}
+          width={600}
+          height={500}
           className="relative rounded-3xl object-cover shadow-[0_0_30px_rgba(34,211,238,0.25)]"
         />
     
