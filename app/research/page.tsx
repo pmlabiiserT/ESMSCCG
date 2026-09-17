@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ResearchPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#030712] via-[#07111f] to-[#030712] text-white px-6 pt-28 pb-24">
+    <main className="min-h-screen bg-gradient-to-b from-[#030712] via-[#07111f] to-[#030712] text-white px-6 pt-40 pb-24">
 
     {/* ========================= */}
     {/* Research Introduction */}
@@ -47,7 +47,7 @@ export default function ResearchPage() {
 
 {/* Enter Research Sections */}
 
-<div className="w-full flex justify-center -mt-10 mb-10">
+<div className="w-full flex justify-center -mt-0 mb-10">
 
   <a
     href="#research-start"
