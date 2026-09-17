@@ -47,7 +47,7 @@ export default function ResearchPage() {
 
 {/* Enter Research Sections */}
 
-<div className="w-full flex justify-center -mt-30 mb-10">
+<div className="w-full flex justify-center -mt-10 mb-10">
 
   <a
     href="#research-start"
