@@ -11,7 +11,7 @@ export default function ResearchPage() {
     
     <section
       id="research-start"
-      className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32"
+      className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center mb-20"
     >
     
       {/* Left — Title & Text */}
@@ -38,7 +38,7 @@ export default function ResearchPage() {
           alt="Research Interests"
           width={600}
           height={500}
-          className="relative rounded-3xl object-cover shadow-[0_0_30px_rgba(34,211,238,0.25)]"
+          className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center mb-20"
         />
     
       </div>
