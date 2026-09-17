@@ -17,7 +17,7 @@ export default function ResearchPage() {
       {/* Left — Title & Text */}
       <div>
     
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-10">
+        <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight mb-10 lg:whitespace-nowrap">
           Research Interests
         </h1>
     
