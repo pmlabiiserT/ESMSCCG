@@ -75,7 +75,7 @@ export default function ResearchPage() {
           <div className="absolute inset-0 bg-cyan-400/30 blur-[45px] rounded-3xl"></div>
 
           <Image
-            src="/ESMSCCG/photos/research/1_final.png"
+            src="/ESMSCCG/photos/research/1_white_1.png"
             alt="Research Topic"
             width={700}
             height={500}
@@ -368,7 +368,7 @@ export default function ResearchPage() {
           <div className="absolute inset-0 bg-cyan-400/10 blur-[45px] rounded-3xl"></div>
 
           <Image
-            src="/ESMSCCG/photos/research/2_final.png"
+            src="/ESMSCCG/photos/research/2_white_1.png"
             alt="Research Topic"
             width={700}
             height={500}
@@ -450,7 +450,7 @@ export default function ResearchPage() {
           <div className="absolute inset-0 bg-cyan-400/10 blur-[45px] rounded-3xl"></div>
 
           <Image
-            src="/ESMSCCG/photos/research/4_final.png"
+            src="/ESMSCCG/photos/research/4_white_1.png"
             alt="Research Topic"
             width={700}
             height={500}
