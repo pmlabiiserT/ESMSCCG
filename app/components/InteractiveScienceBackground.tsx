@@ -75,6 +75,31 @@ export default function InteractiveScienceBackground() {
       mouse.active = false;
     };
 
+
+    const handleTouchMove = (event: TouchEvent) => {
+      if (event.touches.length === 0) return;
+    
+      const touch = event.touches[0];
+    
+      mouse.x = touch.clientX;
+      mouse.y = touch.clientY;
+      mouse.active = true;
+    };
+    
+    const handleTouchStart = (event: TouchEvent) => {
+      if (event.touches.length === 0) return;
+    
+      const touch = event.touches[0];
+    
+      mouse.x = touch.clientX;
+      mouse.y = touch.clientY;
+      mouse.active = true;
+    };
+    
+    const handleTouchEnd = () => {
+      mouse.active = false;
+    };
+
     const drawParticle = (particle: Particle, time: number) => {
       const x = particle.x * width;
       const y = particle.y * height;
@@ -264,12 +289,18 @@ export default function InteractiveScienceBackground() {
     window.addEventListener("resize", resize);
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mouseleave", handleMouseLeave);
+    window.addEventListener("touchstart", handleTouchStart, { passive: true });
+    window.addEventListener("touchmove", handleTouchMove, { passive: true });
+    window.addEventListener("touchend", handleTouchEnd, { passive: true });
 
     return () => {
       cancelAnimationFrame(animationFrame);
       window.removeEventListener("resize", resize);
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("mouseleave", handleMouseLeave);
+      window.removeEventListener("touchstart", handleTouchStart);
+      window.removeEventListener("touchmove", handleTouchMove);
+      window.removeEventListener("touchend", handleTouchEnd);
     };
   }, []);
 
