@@ -32,6 +32,9 @@ export default function InteractiveScienceBackground() {
       active: false,
     };
 
+    let lastScrollY = window.scrollY;
+    let scrollImpulse = 0;
+
     const particles: Particle[] = [];
 
     const particleCount = 111;
@@ -78,26 +81,40 @@ export default function InteractiveScienceBackground() {
 
     const handleTouchMove = (event: TouchEvent) => {
       if (event.touches.length === 0) return;
-    
+
       const touch = event.touches[0];
-    
+
       mouse.x = touch.clientX;
       mouse.y = touch.clientY;
       mouse.active = true;
     };
-    
+
     const handleTouchStart = (event: TouchEvent) => {
       if (event.touches.length === 0) return;
-    
+
       const touch = event.touches[0];
-    
+
       mouse.x = touch.clientX;
       mouse.y = touch.clientY;
       mouse.active = true;
     };
-    
+
     const handleTouchEnd = () => {
       mouse.active = false;
+    };
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const delta = currentScrollY - lastScrollY;
+
+      scrollImpulse += delta * 0.0015;
+
+      scrollImpulse = Math.max(
+        -0.35,
+        Math.min(0.35, scrollImpulse)
+      );
+
+      lastScrollY = currentScrollY;
     };
 
     const drawParticle = (particle: Particle, time: number) => {
@@ -195,7 +212,10 @@ export default function InteractiveScienceBackground() {
 
           if (distance < influence && distance > 0) {
             const force =
-              (1 - distance / influence) * 0.088;
+              (1 - distance / influence) *
+              (window.matchMedia("(pointer: coarse)").matches
+                ? 0.24
+                : 0.088);
 
             particle.vx += (dx / distance) * force;
             particle.vy += (dy / distance) * force;
@@ -222,6 +242,13 @@ export default function InteractiveScienceBackground() {
             Math.sin(angle) * minimumSpeed;
         }
 
+
+        if (Math.abs(scrollImpulse) > 0.001) {
+          particle.vy += scrollImpulse;
+        }
+
+        scrollImpulse *= 0.90;
+        
         particle.vx *= 0.996;
         particle.vy *= 0.996;
 
@@ -292,6 +319,7 @@ export default function InteractiveScienceBackground() {
     window.addEventListener("touchstart", handleTouchStart, { passive: true });
     window.addEventListener("touchmove", handleTouchMove, { passive: true });
     window.addEventListener("touchend", handleTouchEnd, { passive: true });
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
       cancelAnimationFrame(animationFrame);
@@ -301,6 +329,7 @@ export default function InteractiveScienceBackground() {
       window.removeEventListener("touchstart", handleTouchStart);
       window.removeEventListener("touchmove", handleTouchMove);
       window.removeEventListener("touchend", handleTouchEnd);
+      window.removeEventListener("scroll", handleScroll);     
     };
   }, []);
 
