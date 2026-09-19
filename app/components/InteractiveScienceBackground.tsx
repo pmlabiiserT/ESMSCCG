@@ -37,7 +37,7 @@ export default function InteractiveScienceBackground() {
 
     const particles: Particle[] = [];
 
-    const particleCount = 111;
+    const particleCount = 141;
 
     for (let i = 0; i < particleCount; i++) {
       const angle = Math.random() * Math.PI * 2;
