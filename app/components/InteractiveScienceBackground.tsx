@@ -183,7 +183,7 @@ export default function InteractiveScienceBackground() {
 
           if (distance < maxDistance) {
             const opacity =
-              (1 - distance / maxDistance) * 0.12;
+              (1 - distance / maxDistance) * 0.30;
 
             ctx.beginPath();
             ctx.moveTo(ax, ay);
