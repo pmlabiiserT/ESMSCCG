@@ -41,7 +41,7 @@ export default function InteractiveScienceBackground() {
 
     for (let i = 0; i < particleCount; i++) {
       const angle = Math.random() * Math.PI * 2;
-      const speed = 0.96 + Math.random() * 0.72;
+      const speed = 0.99 + Math.random() * 0.92;
 
       particles.push({
         x: (Math.random() + Math.random()) / 2,
@@ -189,7 +189,7 @@ export default function InteractiveScienceBackground() {
             ctx.moveTo(ax, ay);
             ctx.lineTo(bx, by);
             ctx.strokeStyle = `rgba(34, 211, 238, ${opacity})`;
-            ctx.lineWidth = 2.1;
+            ctx.lineWidth = 2.5;
             ctx.stroke();
           }
         }
@@ -227,7 +227,7 @@ export default function InteractiveScienceBackground() {
           particle.vy * particle.vy
         );
 
-        const minimumSpeed = 0.48;
+        const minimumSpeed = 0.68;
 
         if (speed < minimumSpeed) {
           const angle = Math.atan2(
