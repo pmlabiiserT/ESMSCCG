@@ -30,6 +30,7 @@ export default function InteractiveScienceBackground() {
       x: -1000,
       y: -1000,
       active: false,
+      holding: false,
     };
 
     let lastScrollY = window.scrollY;
@@ -73,34 +74,49 @@ export default function InteractiveScienceBackground() {
       mouse.y = event.clientY;
       mouse.active = true;
     };
-
+    
+    const handleMouseDown = (event: MouseEvent) => {
+      mouse.x = event.clientX;
+      mouse.y = event.clientY;
+      mouse.active = true;
+      mouse.holding = true;
+    };
+    
+    const handleMouseUp = () => {
+      mouse.holding = false;
+    };
+    
     const handleMouseLeave = () => {
       mouse.active = false;
+      mouse.holding = false;
     };
 
 
     const handleTouchMove = (event: TouchEvent) => {
       if (event.touches.length === 0) return;
-
+    
       const touch = event.touches[0];
-
+    
       mouse.x = touch.clientX;
       mouse.y = touch.clientY;
       mouse.active = true;
     };
-
+    
     const handleTouchStart = (event: TouchEvent) => {
       if (event.touches.length === 0) return;
-
+    
       const touch = event.touches[0];
-
+    
       mouse.x = touch.clientX;
       mouse.y = touch.clientY;
       mouse.active = true;
+    
+      mouse.holding = true;
     };
-
+    
     const handleTouchEnd = () => {
       mouse.active = false;
+      mouse.holding = false;
     };
 
     const handleScroll = () => {
@@ -203,22 +219,32 @@ export default function InteractiveScienceBackground() {
         if (mouse.active) {
           const x = particle.x * width;
           const y = particle.y * height;
-
+        
           const dx = x - mouse.x;
           const dy = y - mouse.y;
           const distance = Math.sqrt(dx * dx + dy * dy);
-
-          const influence = 290;
-
+        
+          const influence = mouse.holding ? 700 : 290;
+        
           if (distance < influence && distance > 0) {
-            const force =
-              (1 - distance / influence) *
-              (window.matchMedia("(pointer: coarse)").matches
-                ? 0.24
-                : 0.088);
-
-            particle.vx += (dx / distance) * force;
-            particle.vy += (dy / distance) * force;
+            let force;
+        
+            if (mouse.holding) {
+              force =
+                (1 - distance / influence) *
+                (window.matchMedia("(pointer: coarse)").matches
+                  ? 0.65
+                  : 0.45);
+            } else {
+              force =
+                (1 - distance / influence) *
+                (window.matchMedia("(pointer: coarse)").matches
+                  ? 0.24
+                  : 0.088);
+            }
+        
+            particle.vx -= (dx / distance) * force;
+            particle.vy -= (dy / distance) * force;
           }
         }
 
@@ -315,6 +341,8 @@ export default function InteractiveScienceBackground() {
 
     window.addEventListener("resize", resize);
     window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mousedown", handleMouseDown);
+    window.addEventListener("mouseup", handleMouseUp);
     window.addEventListener("mouseleave", handleMouseLeave);
     window.addEventListener("touchstart", handleTouchStart, { passive: true });
     window.addEventListener("touchmove", handleTouchMove, { passive: true });
@@ -325,6 +353,8 @@ export default function InteractiveScienceBackground() {
       cancelAnimationFrame(animationFrame);
       window.removeEventListener("resize", resize);
       window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mousedown", handleMouseDown);
+      window.removeEventListener("mouseup", handleMouseUp);
       window.removeEventListener("mouseleave", handleMouseLeave);
       window.removeEventListener("touchstart", handleTouchStart);
       window.removeEventListener("touchmove", handleTouchMove);
