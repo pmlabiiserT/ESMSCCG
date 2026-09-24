@@ -162,11 +162,11 @@ const [allImages, setAllImages] = useState<string[]>([]);
     {
       caption: "Farewell of Dr. Ray, Adiós!! (23.09.2026)",
       images: [
-        "/ESMSCCG/photos/news/ray_farewell/1.jpg",
-        "/ESMSCCG/photos/news/ray_farewell/2.jpg",
-        "/ESMSCCG/photos/news/ray_farewell/3.jpg",
-        "/ESMSCCG/photos/news/ray_farewell/4.jpg",
-        "/ESMSCCG/photos/news/ray_farewell/5.jpg",
+        "/ESMSCCG/photos/news/ray_farewell/1.jpeg",
+        "/ESMSCCG/photos/news/ray_farewell/2.jpeg",
+        "/ESMSCCG/photos/news/ray_farewell/3.jpeg",
+        "/ESMSCCG/photos/news/ray_farewell/4.jpeg",
+        "/ESMSCCG/photos/news/ray_farewell/5.jpeg",
       ],
     },
 
