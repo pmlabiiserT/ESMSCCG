@@ -7,7 +7,7 @@ export default function FacilitiesPage() {
 
   const facilities = [
     {
-      icon: "🖥️",
+     
       title: "FELUDA",
       subtitle: "PMLab Dedicated HPC Cluster",
       description:
@@ -17,7 +17,7 @@ export default function FacilitiesPage() {
       ],
     },
     {
-      icon: "⚡",
+     
       title: "ARYABHATA",
       subtitle: "IISER Tirupati Central HPC Facility",
       description:
@@ -30,7 +30,7 @@ export default function FacilitiesPage() {
 
     
     {
-      icon: "💻",
+     
       title: "Workstations",
       subtitle: "In-Lab Facility",
       description:
@@ -42,7 +42,7 @@ export default function FacilitiesPage() {
       ],
     },
     {
-      icon: "🔬",
+      
       title: "Softwares",
       subtitle: "Scientific Computing & Simulation Tools",
       description:
@@ -157,19 +157,15 @@ export default function FacilitiesPage() {
               key={index}
               className="backdrop-blur-md bg-black/25 border border-cyan-400/10 rounded-[35px] p-10 hover:scale-[1.04] hover:-translate-y-2 hover:border-cyan-400 hover:bg-cyan-400/10 hover:shadow-[0_0_80px_rgba(34,211,238,0.35)] transition-all duration-500"
             >
+            
               {/* Header */}
-              <div className="flex items-center gap-5 mb-8">
-                <div className="text-5xl">
-                  {facility.icon}
-                </div>
-                <div>
-                  <h2 className="text-4xl font-bold text-cyan-300">
-                    {facility.title}
-                  </h2>
-                  <p className="text-gray-400 text-lg mt-1">
-                    {facility.subtitle}
-                  </p>
-                </div>
+              <div className="mb-8">
+                <h2 className="text-4xl font-bold text-cyan-300">
+                  {facility.title}
+                </h2>
+                <p className="text-gray-400 text-lg mt-1">
+                  {facility.subtitle}
+                </p>
               </div>
 
               {/* Description */}
