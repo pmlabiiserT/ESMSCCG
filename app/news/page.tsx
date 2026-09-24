@@ -158,6 +158,19 @@ const [allImages, setAllImages] = useState<string[]>([]);
   const gallery = [
 
 
+
+    {
+      caption: "Farewell of Dr. Ray, Adiós!! (23.09.2026)",
+      images: [
+        "/ESMSCCG/photos/news/ray_farewell/1.jpg",
+        "/ESMSCCG/photos/news/ray_farewell/2.jpg",
+        "/ESMSCCG/photos/news/ray_farewell/3.jpg",
+        "/ESMSCCG/photos/news/ray_farewell/4.jpg",
+        "/ESMSCCG/photos/news/ray_farewell/5.jpg",
+      ],
+    },
+
+    
     {
       caption: "Teachers' Day (2026) × Movie Night × Pizza Party",
       images: [
