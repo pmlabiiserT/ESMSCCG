@@ -75,7 +75,7 @@ ESMSCCG/
         └── news/                            # News and gallery event photos
 
 
-
+```
 ---
 
 ## 5. `app/` Directory Breakdown & Page Editing Guide
