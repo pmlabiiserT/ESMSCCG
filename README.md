@@ -8,8 +8,6 @@ This document serves as the primary hand-over guide. If you are taking over the 
 
 ## 1. Credentials & Repository Details
 
-* **Gmail ID:** `16pmlab@gmail.com`
-* **Password:** `netweb@123`
 * **GitHub Username:** `pmlabiiserT`
 * **Repository Name:** `ESMSCCG`
 * **Repository URL:** [https://github.com/pmlabiiserT/ESMSCCG](https://github.com/pmlabiiserT/ESMSCCG)
