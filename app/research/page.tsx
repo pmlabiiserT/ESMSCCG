@@ -147,7 +147,16 @@ export default function ResearchPage() {
                     >
                       BAGEL
                     </a>
-      
+                    
+                     <a
+                      href="https://www.faccts.de/orca/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1.5 text-lg rounded-full border border-cyan-400/30 text-cyan-300 hover:bg-cyan-400 hover:text-black transition"
+                    >
+                      ORCA
+                    </a>
+                    
       
                      <a
                       href="https://jmol.sourceforge.net/"
