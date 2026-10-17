@@ -38,7 +38,9 @@ export default function InteractiveScienceBackground() {
 
     const particles: Particle[] = [];
 
-    const particleCount = 141;
+
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    const particleCount = isMobile ? 141 : 94;
 
     for (let i = 0; i < particleCount; i++) {
       const angle = Math.random() * Math.PI * 2;
