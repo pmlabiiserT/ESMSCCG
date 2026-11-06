@@ -531,7 +531,7 @@ export default function TeamPage() {
       {/* ================================================= */}
 
       <h2 className="text-6xl font-bold text-cyan-400 mb-24 mt-32">
-        JRF Project Student
+        JRF Project Associates
       </h2>
 
       <div
@@ -603,6 +603,122 @@ export default function TeamPage() {
 
       </div>
 
+
+      {/* PROJECT ASSOCIATE II — ATHEENA */}
+
+      <div
+        id="jrf2"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-40"
+      >
+
+        <div className="order-2 lg:order-1">
+
+          <h3 className="text-5xl font-bold mb-8">
+            Atheena Krishna D
+          </h3>
+
+          <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
+
+            <p>
+              <span className="text-lime-400 font-semibold">
+                Position:
+              </span>{" "}
+              JRF Project Associate (PA-II)
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold">
+                Member Since:
+              </span>{" "}
+              To be updated
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold">
+                Research Topic:
+              </span>{" "}
+              To be updated
+            </p>
+
+          </div>
+
+        </div>
+
+        <div className="flex justify-center order-1 lg:order-2">
+
+          <Image
+            src="/ESMSCCG/photos/team/alumni/f_atheena.jpg"
+            alt="Atheena Krishna D"
+            width={420}
+            height={420}
+            className="rounded-[35px] border border-cyan-400/20 shadow-[0_0_45px_rgba(34,211,238,0.25)] object-cover"
+          />
+
+        </div>
+
+      </div>
+
+
+
+
+
+      {/* PROJECT ASSOCIATE III — THERES */}
+
+      <div
+        id="jrf3"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-40"
+      >
+
+        <div className="flex justify-center">
+
+          <Image
+            src="/ESMSCCG/photos/team/theres_1.jpg"
+            alt="Theres Maria Prince"
+            width={420}
+            height={420}
+            className="rounded-[35px] border border-cyan-400/20 shadow-[0_0_45px_rgba(34,211,238,0.25)] object-cover"
+          />
+
+        </div>
+
+        <div>
+
+          <h3 className="text-5xl font-bold mb-8">
+            Theres Maria Prince
+          </h3>
+
+          <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
+
+            <p>
+              <span className="text-lime-400 font-semibold">
+                Position:
+              </span>{" "}
+              JRF Project Associate (PA-III)
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold">
+                Member Since:
+              </span>{" "}
+              To be updated
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold">
+                Research Topic:
+              </span>{" "}
+              To be updated
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+		  
 {/* ================================================= */}
       {/* MS Thesis */}
       {/* ================================================= */}
