@@ -173,7 +173,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf1"
-              className="absolute z-40 top-[45%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
+              className="absolute z-40 top-[40%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -194,7 +194,7 @@ export default function TeamPage() {
 
             <a
               href="#ms1"
-              className="absolute bottom-[20%] left-[20%] flex flex-col items-center group"
+              className="absolute bottom-[28%] left-[15%] flex flex-col items-center group"
             >
 
               <Image
@@ -213,7 +213,7 @@ export default function TeamPage() {
 
             <a
               href="#ms3"
-              className="absolute bottom-[20%] right-[20%] flex flex-col items-center group"
+              className="absolute bottom-[28%] right-[15%] flex flex-col items-center group"
             >
 
               <Image
@@ -230,6 +230,63 @@ export default function TeamPage() {
 
             </a>
 
+
+
+
+            {/* PROJECT ASSOCIATE II — ATHEENA */}
+
+            <a
+              href="#jrf2"
+              className="absolute bottom-[12%] left-[34%] -translate-x-1/2 flex flex-col items-center group"
+            >
+
+              <Image
+                src="/ESMSCCG/photos/team/atheena_2.jpeg"
+                alt="Atheena Krishna D"
+                width={90}
+                height={90}
+                className="rounded-full border-4 border-cyan-400 shadow-[0_0_30px_rgba(34,211,238,0.9)] group-hover:scale-110 transition duration-300 object-cover"
+              />
+
+              <p className="text-cyan-300 font-bold mt-1">
+                PA-II
+              </p>
+
+              <p className="text-white text-xs leading-none mt-1">
+                Atheena
+              </p>
+
+            </a>
+
+
+
+
+            {/* PROJECT ASSOCIATE III — THERES */}
+
+            <a
+              href="#jrf3"
+              className="absolute bottom-[12%] right-[34%] translate-x-1/2 flex flex-col items-center group"
+            >
+
+              <Image
+                src="/ESMSCCG/photos/team/theres_2.jpg"
+                alt="Theres Maria Prince"
+                width={90}
+                height={90}
+                className="rounded-full border-4 border-cyan-400 shadow-[0_0_30px_rgba(34,211,238,0.9)] group-hover:scale-110 transition duration-300 object-cover"
+              />
+
+              <p className="text-cyan-300 font-bold mt-1">
+                PA-III
+              </p>
+
+              <p className="text-white text-xs leading-none mt-1">
+                Theres
+              </p>
+
+            </a>			  
+			  
+			  
             {/* GK */}
 
             <a
