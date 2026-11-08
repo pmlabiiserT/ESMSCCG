@@ -721,7 +721,7 @@ export default function TeamPage() {
         <div className="flex justify-center order-1 lg:order-2">
 
           <Image
-            src="/ESMSCCG/photos/team/alumni/f_atheena.jpg"
+            src="/ESMSCCG/photos/team/atheena_1.jpg"
             alt="Atheena Krishna D"
             width={420}
             height={420}
