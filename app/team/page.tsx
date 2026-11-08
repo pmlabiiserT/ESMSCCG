@@ -194,7 +194,7 @@ export default function TeamPage() {
 
             <a
               href="#ms1"
-              className="absolute bottom-[12%] left-[34%] flex flex-col items-center group"
+              className="absolute bottom-[14%] left-[32%] flex flex-col items-center group"
             >
 
               <Image
@@ -213,7 +213,7 @@ export default function TeamPage() {
 
             <a
               href="#ms3"
-              className="absolute bottom-[12%] right-[34%] flex flex-col items-center group"
+              className="absolute bottom-[14%] right-[32%] flex flex-col items-center group"
             >
 
               <Image
@@ -237,7 +237,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf2"
-              className="absolute bottom-[28%] left-[15%] -translate-x-1/2 flex flex-col items-center group"
+              className="absolute bottom-[30%] left-[16%] -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -265,7 +265,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf3"
-              className="absolute bottom-[28%] right-[15%] translate-x-1/2 flex flex-col items-center group"
+              className="absolute bottom-[30%] right-[16%] translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
