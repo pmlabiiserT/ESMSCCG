@@ -110,7 +110,7 @@ export default function TeamPage() {
 
             <a
               href="#phd2"
-              className="absolute top-[16%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
+              className="absolute top-[12%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -131,7 +131,7 @@ export default function TeamPage() {
 
             <a
               href="#phd3"
-              className="absolute top-[27%] left-[19%] flex flex-col items-center group"
+              className="absolute top-[23%] left-[19%] flex flex-col items-center group"
             >
 
               <Image
@@ -152,7 +152,7 @@ export default function TeamPage() {
 
             <a
               href="#phd4"
-              className="absolute top-[27%] right-[19%] flex flex-col items-center group"
+              className="absolute top-[23%] right-[19%] flex flex-col items-center group"
             >
 
               <Image
@@ -173,7 +173,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf1"
-              className="absolute z-40 top-[40%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
+              className="absolute z-40 top-[35%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -194,7 +194,7 @@ export default function TeamPage() {
 
             <a
               href="#ms1"
-              className="absolute bottom-[28%] left-[15%] flex flex-col items-center group"
+              className="absolute bottom-[12%] left-[34%] flex flex-col items-center group"
             >
 
               <Image
@@ -213,7 +213,7 @@ export default function TeamPage() {
 
             <a
               href="#ms3"
-              className="absolute bottom-[28%] right-[15%] flex flex-col items-center group"
+              className="absolute bottom-[12%] right-[34%] flex flex-col items-center group"
             >
 
               <Image
@@ -237,7 +237,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf2"
-              className="absolute bottom-[12%] left-[34%] -translate-x-1/2 flex flex-col items-center group"
+              className="absolute bottom-[28%] left-[15%] -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -265,7 +265,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf3"
-              className="absolute bottom-[12%] right-[34%] translate-x-1/2 flex flex-col items-center group"
+              className="absolute bottom-[28%] right-[15%] translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -1119,30 +1119,6 @@ export default function TeamPage() {
 
           </div>
 
-          {/* Alumni 2 */}
-          <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
-
-            <Image
-              src="/ESMSCCG/photos/team/alumni/f_atheena.jpg"
-              alt="alumni"
-              width={240}
-              height={240}
-              className="rounded-2xl border border-cyan-400/20 shadow-[0_0_25px_rgba(34,211,238,0.25)] object-cover aspect-square mb-6"
-            />
-
-            <h3 className="text-2xl font-bold text-white mb-2">
-              Atheena Krishna D
-            </h3>
-
-            <p className="text-cyan-300 text-lg mb-1">
-              MS Thesis
-            </p>
-
-            <p className="text-gray-400">
-              Jan,2025 — Jul,2026
-            </p>
-
-          </div>
 
 {/* Alumni  */}
 	  <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
