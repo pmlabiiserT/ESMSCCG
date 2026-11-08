@@ -110,7 +110,7 @@ export default function TeamPage() {
 
             <a
               href="#phd2"
-              className="absolute top-[14%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
+              className="absolute top-[15%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -131,7 +131,7 @@ export default function TeamPage() {
 
             <a
               href="#phd3"
-              className="absolute top-[25%] left-[19%] flex flex-col items-center group"
+              className="absolute top-[26%] left-[19%] flex flex-col items-center group"
             >
 
               <Image
@@ -152,7 +152,7 @@ export default function TeamPage() {
 
             <a
               href="#phd4"
-              className="absolute top-[25%] right-[19%] flex flex-col items-center group"
+              className="absolute top-[26%] right-[19%] flex flex-col items-center group"
             >
 
               <Image
@@ -173,7 +173,7 @@ export default function TeamPage() {
 
             <a
               href="#jrf1"
-              className="absolute z-40 top-[37%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
+              className="absolute z-40 top-[38%] left-1/2 -translate-x-1/2 flex flex-col items-center group"
             >
 
               <Image
@@ -194,7 +194,7 @@ export default function TeamPage() {
 
             <a
               href="#ms1"
-              className="absolute bottom-[16%] left-[31%] flex flex-col items-center group"
+              className="absolute bottom-[19%] left-[31%] flex flex-col items-center group"
             >
 
               <Image
@@ -213,7 +213,7 @@ export default function TeamPage() {
 
             <a
               href="#ms3"
-              className="absolute bottom-[16%] right-[31%] flex flex-col items-center group"
+              className="absolute bottom-[19%] right-[31%] flex flex-col items-center group"
             >
 
               <Image
@@ -661,6 +661,7 @@ export default function TeamPage() {
       </div>
 
 
+
       {/* PROJECT ASSOCIATE II — ATHEENA */}
 
       <div
@@ -677,24 +678,40 @@ export default function TeamPage() {
           <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
 
             <p>
-              <span className="text-lime-400 font-semibold">
-                Position:
-              </span>{" "}
-              JRF Project Associate (PA-II)
-            </p>
-
-            <p>
-              <span className="text-lime-400 font-semibold">
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              To be updated
+              October 2026
             </p>
 
             <p>
-              <span className="text-lime-400 font-semibold">
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              To be updated
+              To be announced
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+                About me:
+              </span>{" "}
+              Reading, Movies, Doomscrolling
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+                Contact:
+              </span>{" "}
+
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=atheenakrishnad211123@students.iisertirupati.ac.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-300 hover:text-white hover:underline transition duration-300"
+              >
+                atheenakrishnad211123@students.iisertirupati.ac.in
+              </a>
+
             </p>
 
           </div>
@@ -714,6 +731,7 @@ export default function TeamPage() {
         </div>
 
       </div>
+
 
 
 
@@ -747,24 +765,40 @@ export default function TeamPage() {
           <div className="space-y-6 text-2xl text-gray-300 leading-relaxed">
 
             <p>
-              <span className="text-lime-400 font-semibold">
-                Position:
-              </span>{" "}
-              JRF Project Associate (PA-III)
-            </p>
-
-            <p>
-              <span className="text-lime-400 font-semibold">
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Member Since:
               </span>{" "}
-              To be updated
+              November 2026
             </p>
 
             <p>
-              <span className="text-lime-400 font-semibold">
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
                 Research Topic:
               </span>{" "}
-              To be updated
+              To be announced
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+                About me:
+              </span>{" "}
+              Travelling, Photography, Journaling, Home Styling
+            </p>
+
+            <p>
+              <span className="text-lime-400 font-semibold drop-shadow-[0_0_10px_rgba(196,181,253,0.5)]">
+                Contact:
+              </span>{" "}
+
+              <a
+                href="mailto:xxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-300 hover:text-white hover:underline transition duration-300"
+              >
+                XXX
+              </a>
+
             </p>
 
           </div>
