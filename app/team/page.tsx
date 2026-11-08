@@ -1059,7 +1059,7 @@ export default function TeamPage() {
     <div className="flex justify-center">
 
       <Image
-        src="/ESMSCCG/photos/team/soumyadip_3.jpg"
+        src="/ESMSCCG/photos/team/alumni/soumyadip_3.jpg"
         alt="Dr. Soumyadip Ray"
         width={420}
         height={420}
