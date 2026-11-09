@@ -160,6 +160,16 @@ const [allImages, setAllImages] = useState<string[]>([]);
 
 
     {
+      caption: "Pre-synopsis Presentation of Arunima (06.11.2026)",
+      images: [
+        "/ESMSCCG/photos/news/arunima_presynopsis/1.jpeg",
+        "/ESMSCCG/photos/news/arunima_presynopsis/2.jpeg",
+        "/ESMSCCG/photos/news/arunima_presynopsis/3.jpg",
+        "/ESMSCCG/photos/news/arunima_presynopsis/4.jpg",
+      ],
+    },    
+
+    {
       caption: "Farewell of Dr. Ray, Adiós!! (23.09.2026)",
       images: [
         "/ESMSCCG/photos/news/ray_farewell/1.jpg",
