@@ -135,7 +135,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/ESMSCCG/photos/team/f_subhadip.jpeg"
+                src="/ESMSCCG/photos/team/f_subhadip.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -198,7 +198,7 @@ export default function TeamPage() {
             >
 
               <Image
-                src="/ESMSCCG/photos/team/f_sulekha.jpeg"
+                src="/ESMSCCG/photos/team/f_sulekha.jpg"
                 alt="member"
                 width={90}
                 height={90}
@@ -876,7 +876,7 @@ export default function TeamPage() {
         <div className="flex justify-center order-1 lg:order-2">
 
           <Image
-            src="/ESMSCCG/photos/team/sulekha.jpeg"
+            src="/ESMSCCG/photos/team/sulekha.jpg"
             alt="member"
             width={420}
             height={420}
@@ -1231,7 +1231,7 @@ export default function TeamPage() {
 {/* Alumni 5 */}
           <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
             <Image 
-              src="/ESMSCCG/photos/team/alumni/f_prachi_1.jpeg" 
+              src="/ESMSCCG/photos/team/alumni/f_prachi_1.jpg" 
               alt="alumni" 
               width={240} 
               height={240}
@@ -1245,7 +1245,7 @@ export default function TeamPage() {
           {/* Alumni 6 */}
           <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
             <Image 
-              src="/ESMSCCG/photos/team/alumni/f_nihad.jpeg" 
+              src="/ESMSCCG/photos/team/alumni/f_nihad.jpg" 
               alt="alumni" 
               width={240} 
               height={240}
@@ -1259,7 +1259,7 @@ export default function TeamPage() {
           {/* Alumni 7 */}
           <div className="flex flex-col items-center text-center backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-6 hover:scale-105 hover:border-cyan-400/40 hover:shadow-[0_0_35px_rgba(34,211,238,0.18)] transition-all duration-300">
             <Image 
-              src="/ESMSCCG/photos/team/alumni/f_vanisha.jpeg" 
+              src="/ESMSCCG/photos/team/alumni/f_vanisha.jpg" 
               alt="alumni" 
               width={240} 
               height={240}
