@@ -791,12 +791,12 @@ export default function TeamPage() {
               </span>{" "}
 
               <a
-                href="mailto:xxx"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=theresmariap@labs.iisertirupati.ac.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-300 hover:text-white hover:underline transition duration-300"
               >
-                XXX
+                theresmariap@labs.iisertirupati.ac.in
               </a>
 
             </p>
