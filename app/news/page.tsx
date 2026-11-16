@@ -14,6 +14,19 @@ const [allImages, setAllImages] = useState<string[]>([]);
   const newsItems = [
 
 
+
+          {
+            title: "🏆 Best Presentation Award",
+    
+            content:
+              "<strong>Sulekha</strong> received best poster award in Chemistry Day held at IISER Tirupati (13 November, 2026).",
+    
+            doi: "",
+    
+            note: "",
+          },
+
+    
           {
             title: "📰 New Publication",
           
@@ -158,6 +171,21 @@ const [allImages, setAllImages] = useState<string[]>([]);
   const gallery = [
 
 
+    {
+      caption: "Chemistry Day (13.11.2026)",
+      images: [
+        "/ESMSCCG/photos/news/chemday_2026/1.jpeg",
+        "/ESMSCCG/photos/news/chemday_2026/2.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/3.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/4.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/5.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/6.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/7.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/8.jpg",
+        "/ESMSCCG/photos/news/chemday_2026/9.jpg",
+      ],
+    },  
+    
 
     {
       caption: "Pre-synopsis Presentation of Arunima (06.11.2026)",
