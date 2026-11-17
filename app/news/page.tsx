@@ -26,6 +26,19 @@ const [allImages, setAllImages] = useState<string[]>([]);
             note: "",
           },
 
+
+    
+          {
+            title: "📰 New Publication",
+          
+            content:
+              "Arunima Verma and Padmabati Mondal published in <strong>Physical Chemistry Chemical Physics</strong>",
+          
+            doi:
+              "DOI: 10.1039/d6cp03247h",
+          },
+
+
     
           {
             title: "📰 New Publication",
