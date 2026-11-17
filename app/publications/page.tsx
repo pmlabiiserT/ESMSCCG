@@ -98,7 +98,40 @@ export default function PublicationsPage() {
 
 
 
+
+
     {/* Paper 1 */}
+    
+    <div className="backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-8 hover:bg-cyan-400/5 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.25)] transition-all duration-500">
+    
+      <a
+        href="https://doi.org/10.1039/d6cp03247h"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+    
+        <p className="text-2xl text-gray-200 leading-relaxed hover:text-cyan-300 transition duration-300">
+    
+          A. Verma,
+          P. Mondal,
+    
+          "Deciphering the role of lysine mutation in the stability and dynamics of the Cren7–DNA complex"
+    
+          <span className="italic text-cyan-400 ml-2">
+            Phys. Chem. Chem. Phys.
+          </span>
+    
+          , 2026,
+        </p>
+    
+      </a>
+    
+    </div>
+
+
+
+
     
     <div className="backdrop-blur-md bg-black/20 border border-cyan-400/10 rounded-3xl p-8 hover:bg-cyan-400/5 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.25)] transition-all duration-500">
     
