@@ -122,7 +122,7 @@ export default function PublicationsPage() {
             Phys. Chem. Chem. Phys.
           </span>
     
-          , 2026,
+          , 2026
         </p>
     
       </a>
